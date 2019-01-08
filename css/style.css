@@ -1,0 +1,135 @@
+
+
+
+*not(button, input){
+	margin: 0;
+	padding: 0;
+	border:none;
+}
+
+body{
+  background: #1fc6b4;
+}
+
+
+.full-screen{
+	height: 100vh;
+	width: 100vh;
+}
+
+.centered{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.letter-container{
+position: absolute;
+width: 300px;
+animation: aparece 600ms ease-in-out;
+opacity: 0;
+animation-fill-mode: forwards;
+}
+
+
+.letra{
+	width: 120px;
+
+	
+}
+
+#letra-R{
+
+
+}
+
+#letra-e{
+
+
+}
+
+#letra-d{
+
+
+}
+
+
+.container-R{
+
+}
+
+.container-e{
+	animation-delay: 600ms;
+}
+
+.container-d{
+	animation-delay: 1200ms;
+}
+
+
+.point-container{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.point{
+	width: 50px;
+	opacity: 0;
+	animation: pop 200ms;
+	animation-delay: 1800ms;
+	animation-fill-mode: forwards;
+}
+
+.limiter{
+	 display: inline;
+    width: 300px;
+    height: 133px;
+    position: relative;
+}
+
+@keyframes aparece{
+	from{
+		transform: translateX(100px);
+		opacity: 0;
+	}
+	to{
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+
+@keyframes pop{
+0%{
+	opacity: 0;
+	transform: scale(0) ;
+}
+80%{
+	opacity: 0;
+	transform: scale(0);
+}
+95%{
+	opacity: 1;
+	transform: scale(0.8);
+}
+	/*85%{
+		opacity: 1;
+		transform: scale(1.4);
+	}*/
+	100%{
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.st0{fill:none;}
+.st2{fill:#DCDCDC;}
+.st1{fill:#FFFFFF;}
+
+.point-container>.point>.st1{fill:#C81E32;}
+.point-container>.point>.st2{fill:#AF1E32;}
+.point-container>.point>.st3{fill:#A01E32;}

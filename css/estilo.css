@@ -1,0 +1,242 @@
+*{margin: 0; border: 0;}
+
+body{
+  background-image: linear-gradient(to bottom, #5af3e3, #1fc6b4);
+}
+
+
+.wrapper{
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;;
+}
+
+
+.contenedor-particulas{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+#particles-js { 
+
+}
+
+.titulo{
+  width: 460px;
+  height: 50%;
+  opacity: 0.6;
+  font-family: 'Righteous', cursive;
+  font-size: 50px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.parrafo{
+	 width: 470px;
+  height: 169px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 45px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+
+.texto{
+   width: 310px;
+  height: 152px;
+ font-family: Comfortaa;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.logo{
+  width: 370px;
+  height: 100px;
+  position:center;
+}
+
+.contenedor{
+      max-width: 1300px;
+      padding: 10px
+     
+}
+
+.p{
+  width: 309px;
+  height: 108px;
+  font-family: Comfortaa;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: white;
+
+}
+
+.sigue{
+  width: 79px;
+  height: 18px;
+  font-family: Comfortaa;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+}
+
+
+.navbar-custom{
+  background-color: transparent;
+  color:white!important;
+}
+
+.navbar-custom *{
+    color: white;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+}
+
+.img-oficina{
+  width: 621px;
+  height: 466px;
+}
+
+
+
+.img-columna{
+width: 250px;
+height: 200px;
+
+}
+
+.footer {
+ background-color: #363839;
+ bottom: 0;
+ width: 100%;
+ height: 205px;
+}
+
+
+
+.facebook{
+  width: 20px;
+  height: 30px;
+  position: relative;
+ left: 1%; 
+}
+
+
+.link{
+  width: 20px;
+  height: 30px;
+  position: relative;
+  left: 1.5%;
+}
+
+.twitter{
+  width: 20px;
+  height: 30px;
+  position: relative;
+  left: 2.5%;
+
+}
+
+
+.copyright{
+width: 100%;
+height: 51px;
+background-color: #282a2b;
+color: #ffffff;
+}
+
+
+.text{
+  color: white;
+}
+
+h1{
+  width: 900px;
+  opacity: 0.6;
+  font-family: Righteous;
+  font-size: 88px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: right ;
+  color: #ffffff;
+}
+
+
+.linea{
+  width: 1280px;
+  height: 50px;
+  font-family: Comfortaa;
+  font-size: 43px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.12;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+button{
+  font-family: Comfortaa;
+  left: 200px;
+  border:40px;
+  color: #ffffff;
+  width: 130px;
+  height: 35px;
+  border-radius: 8px;
+  background-color: #25a899;
+}
+
+.form-group {
+  position: relative; 
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+
+.mas {
+  width: 500px;
+  height: 50px;
+  font-family: Comfortaa;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.15;
+  position: center;
+  color: #25a899;
+}
+
+.iconoMas{
+   width: 100px;
+  height: 25px;
+}

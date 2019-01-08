@@ -1,0 +1,292 @@
+*{margin: 0; border: 0;}
+
+body{
+  background-image: linear-gradient(to bottom, #5af3e3, #1fc6b4);
+  font-family: Comfortaa;
+}
+
+.wrapper{
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;;
+}
+
+.contenedor-particulas{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+#particles-js { 
+
+}
+
+.titulo{
+   width: 370px;
+  height: 110px;
+  opacity: 0.6;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: Righteous;
+  font-size: 88px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.parrafo{
+width: 470px;
+  height: 104px;
+  font-family: Comfortaa;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.numeros{
+  width: 123px;
+  height: 161px;
+  opacity: 0.6;
+  font-family: Righteous;
+  font-size: 130px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+
+.texto{
+ width: 310px;
+  height: 130px;
+  font-family: Comfortaa;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.12;
+  letter-spacing: normal;
+  text-align: normal;
+  color: #ffffff;
+}
+
+.logo{
+  width: 370px;
+  height: 100px;
+  position:center;
+}
+
+.container{
+      max-width: 1000px;
+      padding: 30px
+     
+}
+
+.navbar-custom{
+  background-color: transparent;
+  color:white!important;
+}
+
+.navbar-custom *{
+    color: white;
+    text-decoration: none;
+}
+
+
+.footer {
+background-color: #363839;
+ bottom: 0;
+ width: 105%;
+ height: 205px;
+}
+
+
+
+.facebook{
+  width: 20px;
+  height: 30px;
+  position: relative;
+ left: 1%; 
+}
+
+
+.link{
+  width: 20px;
+  height: 30px;
+  position: relative;
+  left: 1.5%;
+}
+
+.twitter{
+  width: 20px;
+  height: 30px;
+  position: relative;
+  left: 2.5%;
+
+}
+
+.copyright{
+width: 100%;
+height: 51px;
+background-color: #282a2b;
+color: #ffffff;
+}
+
+
+.text{
+  color: white;
+}
+
+
+h1 {
+  position: relative;
+  left: 250px;
+  font-family: Righteous;
+  opacity: 0.6;
+  font-size: 88px;
+  color: #ffffff;
+}
+
+input[type=text] control-label{
+color: #ffffff;
+} 
+
+input[type=text], select {
+   font-family: Comfortaa;
+   line-height: 15px;
+   color:#25a899;
+    width: 100%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+button{
+  font-family: Comfortaa;
+  position: relative;
+  left: 200px;
+  border:20px;
+  color: #ffffff;
+  width: 105px;
+  height: 35px;
+  border-radius: 4px;
+  background-color: #25a899;
+
+}
+
+
+
+
+.form-group {
+  position: relative; 
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+}
+
+.form-inline > .form-group,
+.form-inline > .btn {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+
+ .form-group {
+  position:;
+  width:50%;
+}
+
+
+.form-group .control-label {
+  position: absolute;
+  top: 0.25rem;
+  pointer-events: none;
+  padding-left: 0.125rem;
+  z-index: 1;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: normal;
+  -webkit-transition: all 0.28s ease;
+  transition: all 0.28s ease;
+}
+
+.form-group .bar {
+  position: relative;
+  border-bottom: 0.0625rem solid #25a899;
+  display: block;
+}
+
+.form-group .bar::before {
+  content: '';
+  height: 0.125rem;
+  width: 0;
+  left: 50%;
+  bottom: -0.0625rem;
+  position: absolute;
+  background: #337ab7;
+  -webkit-transition: left 0.28s ease, width 0.28s ease;
+  transition: left 0.28s ease, width 0.28s ease;
+  z-index: 2;
+}
+
+.form-group input,
+.form-group textarea {
+  display: block;
+  background: none;
+  padding: 0.125rem 0.125rem 0.0625rem;
+  font-size: 1rem;
+  border-width: 0;
+  border-color: transparent;
+  line-height: 1.9;
+  width: 100%;
+  color: #ffffff;
+  -webkit-transition: all 0.28s ease;
+  transition: all 0.28s ease;
+  box-shadow: none;
+}
+
+.form-group input[type="file"] {
+  line-height: 1;
+}
+
+.form-group input[type="file"] ~ .bar {
+  display: none;
+}
+
+.form-group select ~ .control-label,
+.form-group input:focus ~ .control-label,
+.form-group input:valid ~ .control-label,
+.form-group input.form-file ~ .control-label,
+.form-group input.has-value ~ .control-label,
+.form-group textarea:focus ~ .control-label,
+.form-group textarea:valid ~ .control-label,
+.form-group textarea.form-file ~ .control-label,
+.form-group textarea.has-value ~ .control-label {
+  font-size: 0.8rem;
+  color: gray;
+  top: -1rem;
+  left: 0;
+}
+
+.form-group select:focus,
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+}
+
+
