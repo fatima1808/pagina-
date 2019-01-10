@@ -5,15 +5,43 @@ $("body").ready(function(event){
 	$("#opciones").val(tipo);
 });
 $("#btn-enviar").click(function(event){
+	var nombre = $("#nombre-contacto").val();
+	var telefono = $("#telefono").val();
+	var email = $("#correo-contacto").val();
+	var tipo = $("#opciones").val();
+
+	limpiarErrores("nombre-contacto");
+	limpiarErrores("telefono");
+	limpiarErrores("correo-contacto");
+	limpiarErrores("opciones");
+
+	if(isEmpty("nombre-contacto")){
+		return false;
+	}
+
+	if(isEmpty("telefono")){
+		return false;
+	}
+
+	if(isEmpty("correo-contacto")){
+		return false;
+	}
+
+	if(isEmpty("opciones")){
+		return false; 
+	}
+
+	var datos={
+			"nombre":nombre,
+			"telefono":telefono,
+		    "email": email,
+		    "tipo":tipo,
+		    
+		};
 	$.ajax({
 		url:"192.168.0.20/test.php", 
 		method:"POST", 
-		data:  {
-		    "email": $("#correo-contacto").val(),
-		    "subject": "contacto redpoint",
-		    "bodyHtml": "<h1>Hola mundo</h1>",
-		    "bodyTxt": "Hola mundo"
-		},
+		data:  datos,
 		success:function(response){
 			console.log(response.statusMessage);
 		} ,
@@ -22,3 +50,19 @@ $("#btn-enviar").click(function(event){
 		}
 	})
 });
+
+function isEmpty(id){
+	var dato = $("#"+id).val();
+	if (dato===""){
+		$("#"+id).addClass("error-input");
+		$("label[for='"+id+"']").text("El campo no puede estar vacio");
+		return true;
+	}
+
+	return false;
+}
+
+function limpiarErrores(id){
+	$("#"+id).removeClass("error-input");
+	$("label[for='"+id+"']").text("");
+}

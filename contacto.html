@@ -25,86 +25,84 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>  
       </button>
-
+ 
       <div class="collapse navbar-collapse my-2 my-lg-0 px-5" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="home.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="nosotros.html">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="servicios.html">Servicios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Contacto</a>
-          </li>
+        <li class="nav-item">
+        <a class="nav-link" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="nosotros.html">Nosotros</a>
+        </li>
+        <li cl ass="nav-item">
+        <a class="nav-link" href="servicios.html">Servicios</a>
+        </li> 
+        <li class="nav-item">
+        <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
         </ul>
-      </div>
-    </nav>
+        </div>
+        </nav>
 
 
-      <center>  
-        <form action="enviar.php" method="post" enctype="text/plain">
+        <center>  
+        <form> 
         <div class="contenedor-formulario">
         <div class="wrapper">
 
        
         <h1><div class="center-align">Contacto</div></h1>
-
+        
+      <div class="col-sm-12">
        <div class="form-group">
-      <input type="text" required="required"/>
-      <label for="input" class="control-label">Nombre</label><i class="bar"></i>
+       <input class="input-contacto" id="nombre-contacto" type="text" required="required"/>
+       <label for="input" class="control-label">Nombre</label>
+       <label for="nombre-contacto" class="error-label"></label>
       </div>
      
-          
- 
-
+        
         <div class="col-sm-12">    
         <div class="form-group">
-        <select>
-        <option value="Opcion1">Quiero una cita de negocios</option>
-        <option value="Opcion2">Quiero postularme para trabajar</option>
+        <select id=opciones>
+        <option value="1">Quiero una cita de negocios</option>
+        <option value="2">Quiero postularme para trabajar</option>
         </select>
-        <input type="text" required="required"/>
-        <label for="input" class="control-label">Motivo</label>
+        <label for="select"class="control-label">Motivo</label>
 
-        
-
-
+ 
         
           <div class="col-sm-12">
-          <div class="form-group">
-          <input type="email" required="required"/>
-          <label for="input" class="control-label">Correo</label><i class="bar"></i>
-          </div>
+          <div class="form-group" class="form-contacto"></div>
+          <input class="input-contacto" id="correo-contacto"  type="email" required="required"/>
+          <label for="input" class="control-label">Correo</label>
+          <label for="correo-contacto" class="error-label"></label>
+          </div> 
 
 
-           <div class="col-sm-12">
-          <div class="form-group">
-          <input type="numero" required="required"/>
-          <label for="input" class="control-label">Telefono</label><i class="bar"></i>
+          <div class="col-sm-12">
+          <div class="form-group" class="form-contacto"></div>
+          <input class="input-contacto" id="telefono"  type="numero" required="required"/>
+          <label for="input" class="control-label">Telefono</label>
+          <label for="telefono" class="error-label"></label>
           </div>
   
         
-         
 
          <div class="col-sm-12">
          <div class="form-group">
-         <button class="waves-effect waves-light btn" type="submit">¡Ya quedo!</button>
+         <button id="btn-enviar"  class="waves-effect waves-light btn" type="button">¡Ya quedo!</button>
          </div>
          </center>
 
-        
+      
+
+<div class="google-maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1582.6855821286376!2d-99.1853215587103!3d19.356942340739298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fff37f5f545d%3A0x10db14d19cbf01c0!2sRed-Point!5e0!3m2!1ses-419!2smx!4v1547146956235" width="600" height="100" frameborder="0" style="border:0" allowfullscreen> </iframe>
+</div>
 
 
 
-
-
-
-
-               <footer> 
+          <footer> 
           <footer class="footer">
 
           
@@ -162,6 +160,8 @@
         <script src="particles.min.js"></script>
 
         <script src="particulas.js"></script> 
+   
 
 
+        <script src="js/contacto.js" type="text/javascript"></script>
 </html>
