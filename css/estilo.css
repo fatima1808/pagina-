@@ -1,27 +1,3 @@
-*{margin: 0; border: 0;}
-
-body{
-  background-image: linear-gradient(to bottom, #5af3e3, #1fc6b4);
-}
-
-
-.wrapper{
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-  overflow: hidden;;
-}
-
-
-.contenedor-particulas{
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-}
-
-#particles-js { 
-
-}
 
 .titulo{
   opacity: 0.6;
@@ -61,17 +37,6 @@ body{
   color: #ffffff;
 }
 
-.logo{
-  width: 370px;
-  height: 100px;
-  position:center;
-}
-
-.contenedor{
-      max-width: 1300px;
-      padding: 10px     
-}
-
 .navbar-custom{
   background-color: transparent;
   color:white!important;
@@ -84,59 +49,11 @@ body{
 }
 
 .img-oficina{
-  width: 621px;
   height: 466px;
 }
 
-
-
 .img-columna{
 width: 250px;
-height: 200px;
-
-}
-
-.footer {
- background-color: #363839;
- bottom: 0;
- width: 100%;
- height: 205px;
-}
-
-
-
-.facebook{
-  width: 20px;
-  height: 30px;
-  position: relative;
- left: 1%; 
-}
-
-
-.link{
-  width: 20px;
-  height: 30px;
-  position: relative;
-  left: 1.5%;
-}
-
-.twitter{
-  width: 20px;
-  height: 30px;
-  position: relative;
-  left: 2.5%;
-
-}
-
-
-.copyright{
-background-color: #282a2b;
-color: #ffffff;
-}
-
-
-.text{
-  color: white;
 }
 
 h1{
