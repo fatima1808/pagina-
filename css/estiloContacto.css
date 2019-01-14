@@ -1,28 +1,4 @@
-*{margin: 0; border: 0;}
-
-body{
-  background-image: linear-gradient(to bottom, #5af3e3, #1fc6b4);
-  font-family: Comfortaa;
-}
-
-.wrapper{
-  width: 100%;
-  max-width: 1000px;
-  margin: auto;
-  overflow: hidden;;
-}
-
-.contenedor-particulas{
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-}
-
-#particles-js { 
-
-}
-
-.titulo{
+.titulo {
    width: 370px;
   height: 110px;
   opacity: 0.6;
@@ -38,7 +14,7 @@ body{
   color: #ffffff;
 }
 
-.parrafo{
+.parrafo {
 width: 470px;
   height: 104px;
   font-family: Comfortaa;
@@ -52,7 +28,7 @@ width: 470px;
   color: #ffffff;
 }
 
-.numeros{
+.numeros {
   width: 123px;
   height: 161px;
   opacity: 0.6;
@@ -68,7 +44,7 @@ width: 470px;
 }
 
 
-.texto{
+.texto {
  width: 310px;
   height: 130px;
   font-family: Comfortaa;
@@ -82,19 +58,7 @@ width: 470px;
   color: #ffffff;
 }
 
-.logo{
-  width: 370px;
-  height: 100px;
-  position:center;
-}
-
-.container{
-      max-width: 1000px;
-      padding: 30px
-     
-}
-
-.navbar-custom{
+.navbar-custom {
   background-color: transparent;
   color:white!important;
 }
@@ -102,53 +66,7 @@ width: 470px;
 .navbar-custom *{
     color: white;
     text-decoration: none;
-}
-
-
-.footer {
-background-color: #363839;
- bottom: 0;
- width: 105%;
- height: 205px;
-}
-
-
-
-.facebook{
-  width: 20px;
-  height: 30px;
-  position: relative;
- left: 1%; 
-}
-
-
-.link{
-  width: 20px;
-  height: 30px;
-  position: relative;
-  left: 1.5%;
-}
-
-.twitter{
-  width: 20px;
-  height: 30px;
-  position: relative;
-  left: 2.5%;
-
-}
-
-.copyright{
-width: 100%;
-height: 51px;
-background-color: #282a2b;
-color: #ffffff;
-}
-
-
-.text{
-  color: white;
-}
-
+ }
 
 h1 {
   position: relative;
@@ -159,7 +77,7 @@ h1 {
   color: #ffffff;
 }
 
-input[type=text] control-label{
+input[type=text] control-label {
 color: #ffffff;
 } 
 
@@ -171,13 +89,11 @@ input[type=text], select {
     padding: 8px 8px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
     box-sizing: border-box;
 }
 
 
-button{
+button {
   font-family: Comfortaa;
   position: relative;
   left: 200px;
@@ -191,12 +107,17 @@ button{
 }
 
 
+.form-contacto{
+  width: 100%;
+}
+
 
 
 .form-group {
   position: relative; 
   margin-top: 2.25rem;
   margin-bottom: 2.25rem;
+  width: 50%;
 }
 
 .form-inline > .form-group,
@@ -204,13 +125,6 @@ button{
   display: inline-block;
   margin-bottom: 0;
 }
-
-
- .form-group {
-  position:;
-  width:50%;
-}
-
 
 .form-group .control-label {
   position: absolute;
@@ -223,6 +137,7 @@ button{
   font-weight: normal;
   -webkit-transition: all 0.28s ease;
   transition: all 0.28s ease;
+  left: 0%;
 }
 
 .form-group .bar {
@@ -244,14 +159,14 @@ button{
   z-index: 2;
 }
 
+
+
 .form-group input,
 .form-group textarea {
   display: block;
   background: none;
   padding: 0.125rem 0.125rem 0.0625rem;
   font-size: 1rem;
-  border-width: 0;
-  border-color: transparent;
   line-height: 1.9;
   width: 100%;
   color: #ffffff;
@@ -290,3 +205,35 @@ button{
 }
 
 
+.input-contacto{
+  border-bottom: 1px solid #25a899;
+}
+
+
+.error-input{
+border-bottom: 2px solid red;
+}
+
+
+.error-label{
+color: red;
+font-size: 10px;
+text-align: left;
+width: 100%;
+}
+
+
+.google-maps {
+position: relative;
+padding-bottom: 75%; // This is the aspect ratio
+height: 0;
+overflow: hidden;
+}
+  
+.google-maps iframe {
+position: absolute;
+top: 0;
+left: 0%;
+width: 100% !important;
+height: 50% !important;
+    }
