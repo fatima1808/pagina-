@@ -1,26 +1,3 @@
-*{margin: 0; border: 0;}
-
-body{
-  background-image: linear-gradient(to bottom, #5af3e3, #1fc6b4);
-}
-
-
-.wrapper{
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-  overflow: hidden;;
-}
-
-.contenedor-particulas{
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-}
-
-#particles-js { 
-
-}
 
 .titulo{
   opacity: 0.6;
@@ -61,18 +38,6 @@ body{
   color: #ffffff;
 }
 
-.logo{
-  width: 370px;
-  height: 100px;
-  position:center;
-}
-
-.contenedor{
-      max-width: 1300px;
-      padding: 10px
-     
-}
-
 .navbar-custom{
   background-color: transparent;
   color:white!important;
@@ -83,56 +48,9 @@ body{
     text-decoration: none;
 }
 
-
-.footer {
-  background-color: #363839;
- bottom: 0;
- width: 100%;
- height: 205px;
-}
-
-
-.facebook{
-  width: 20px;
-  height: 30px;
-  position: relative;
- left: 1%; 
-}
-
-
-.link{
-  width: 20px;
-  height: 30px;
-  position: relative;
-  left: 1.5%;
-}
-
-.twitter{
-  width: 20px;
-  height: 30px;
-  position: relative;
-  left: 2.5%;
-
-}
-
-
-.copyright{
-width: 100%;
-height: 51px;
-background-color: #282a2b;
-color: #ffffff;
-}
-
-
-
-.text{
-  color: white;
-}
-
 h1{
    width: 1680px;
-  
-  opacity: 0.6;
+   opacity: 0.6;
   font-family: 'Righteous', cursive;
   font-size: 88px;
   font-weight: normal;
@@ -288,8 +206,6 @@ h1{
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
 
-
-
 .equipo{
   font-family: Comfortaa;
   font-size: 20px;
@@ -330,11 +246,6 @@ h1{
     height: 350px;
 }
 
-.center{
-  display: flex;
-  justify-content: center;
-}
-
  .centro-texto{
   color:white;
   font-size: 20px;
@@ -342,11 +253,6 @@ h1{
   text-align: center;
   top: 150px;
   left: 232px;
-}
-
-.center{
-  display: flex;
-  justify-content: center;
 }
 
 #ambicionamos-img{
@@ -362,8 +268,6 @@ h1{
 #ambicionamos-img h5{
   color: #ffffff;
 }
-
-
 
 .flex-column{
   display: flex;
