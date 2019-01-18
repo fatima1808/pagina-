@@ -1,63 +1,3 @@
-.titulo {
-   width: 370px;
-  height: 110px;
-  opacity: 0.6;
-  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  font-family: Righteous;
-  font-size: 88px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.25;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
-}
-
-.parrafo {
-width: 470px;
-  height: 104px;
-  font-family: Comfortaa;
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.15;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
-}
-
-.numeros {
-  width: 123px;
-  height: 161px;
-  opacity: 0.6;
-  font-family: Righteous;
-  font-size: 130px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.24;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
-}
-
-
-.texto {
- width: 310px;
-  height: 130px;
-  font-family: Comfortaa;
-  font-size: 25px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.12;
-  letter-spacing: normal;
-  text-align: normal;
-  color: #ffffff;
-}
-
 .navbar-custom {
   background-color: transparent;
   color:white!important;
@@ -192,10 +132,11 @@ button {
 .form-group textarea:valid ~ .control-label,
 .form-group textarea.form-file ~ .control-label,
 .form-group textarea.has-value ~ .control-label {
-  font-size: 0.8rem;
-  color: gray;
-  top: -1rem;
-  left: 0;
+  font-family: comfortaa;
+  font-size: .9rem;
+  color:white;
+  top: -1.3rem;
+
 }
 
 .form-group select:focus,
@@ -225,7 +166,7 @@ width: 100%;
 
 .google-maps {
 position: relative;
-padding-bottom: 75%; // This is the aspect ratio
+padding-bottom: 75%;
 height: 0;
 overflow: hidden;
 }

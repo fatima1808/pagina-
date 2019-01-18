@@ -19,6 +19,6 @@ slogan.ready(function(){
 
 $("body").ready(function(){
 	window.setTimeout(function(){
-		window.location.replace("./principal.html");
+		window.location.replace("./home.html");
 	},tiempoanimacion);
 });

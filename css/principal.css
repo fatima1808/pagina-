@@ -22,14 +22,14 @@ body{
 
 .contenedor{
 max-width: 1300px;
-padding: 10px     
+padding: 10px  
+padding:50px;   
 }
 
 .footer {
  background-color: #363839;
- bottom: 0;
- width: 100%;
- height: 205px;
+ list-style:none;
+ padding: 50px;
 }
 
 .logo{
@@ -62,13 +62,88 @@ padding: 10px
 .copyright{
 background-color: #282a2b;
 color: #ffffff;
-}
 
-.text{
-  color: white;
 }
 
 .center{
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.center-text{
+text-align: center;
+}
+
+.navbar-custom{
+  background-color: transparent;
+  color:white!important;
+}
+
+.navbar-custom *{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+a{
+	color: white;
+}
+
+p{
+	color: #ffffff;
+}
+
+.img-logos{
+	width: 70px;
+}
+
+.texto1{
+  font-family: Comfortaa;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  
+  color: #ffffff;
+}
+
+.img-redes-sociales{
+width: 30px;
+}
+
+.texto1-opacidad{
+	opacity: 0.6;
+}
+
+.inline{
+	display: inline;
+}
+
+.column{
+display: flex;
+flex-direction: column;
+}
+
+#columna-contacto{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding-right: 20px;
+}
+
+#img-twitter{
+  margin-left: 20px;
+}
+
+#img-linked{
+  margin-left: 20px;
+}
+
+
+
+#img-toma-turno{
+	margin-left: 20px;
 }

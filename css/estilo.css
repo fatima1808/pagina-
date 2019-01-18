@@ -37,17 +37,6 @@
   color: #ffffff;
 }
 
-.navbar-custom{
-  background-color: transparent;
-  color:white!important;
-}
-
-.navbar-custom *{
-    color: white;
-    text-decoration: none;
-    font-family: 'Comfortaa', cursive;
-}
-
 .img-oficina{
   height: 466px;
 }
@@ -121,3 +110,6 @@ button{
   display: flex;
   justify-content: center;
 }
+
+
+
