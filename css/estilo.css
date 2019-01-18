@@ -1,7 +1,7 @@
 
 .titulo{
   opacity: 0.6;
-  font-family: 'Righteous', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 50px;
   font-weight: normal;
   font-style: normal;
@@ -37,13 +37,7 @@
   color: #ffffff;
 }
 
-.img-oficina{
-  height: 466px;
-}
 
-.img-columna{
-width: 250px;
-}
 
 h1{
   opacity: 0.6;
@@ -51,7 +45,7 @@ h1{
   font-size: 88px;
   font-weight: normal;
   font-style: normal;
-  line-height: 1.25;
+  line-height: 3.25;
   letter-spacing: normal;
   color: #ffffff;
 }
@@ -98,7 +92,7 @@ button{
 
 .leer{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .iconoMas{
@@ -113,3 +107,18 @@ button{
 
 
 
+.img-soluciones{
+  min-width: 300px;
+  max-width: 450px;
+}
+
+#como-lo-hacemos{
+  font-size: 35px;
+}
+
+@media only screen and (min-width: 560px) {
+  #como-lo-hacemos{
+  font-size: 80px;
+
+}
+} 
