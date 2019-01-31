@@ -1,6 +1,6 @@
 .contenedor-particulas{
-	width: 100%;
-	height: 100vh;
+	width: 80%;
+	height: 1000vh;
 	position: fixed;
 }
 #particles-js { 
@@ -16,11 +16,9 @@
 
 
 body{
-   background-image: linear-gradient(to bottom, #5af3e3, #323f96);
-}
-
-
- 
+	background-image: linear-gradient(to bottom, #47f5e0, #3ce7e2 62%, #31d9e5);
+	background-repeat: no-repeat;
+	}
 
 .full-screen{
 	height: 100vh;
@@ -144,23 +142,17 @@ animation-fill-mode: forwards;
    z-index: 1;
 }
 
-.demo .large-header {
-   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
-}
 
-.st0{fill:none;}
-.st2{fill:#DCDCDC;}
-.st1{fill:#FFFFFF;}
-
-.point-container>.point>.st1{fill:#C81E32;}
-.point-container>.point>.st2{fill:#AF1E32;}
-.point-container>.point>.st3{fill:#A01E32;}
+ .st0{fill:none;}
+ .st2{fill:#DCDCDC;}
+ .st1{fill:#FFFFFF;}
+ 
+ .point-container>.point>.st1{fill:#C81E32;}
+ .point-container>.point>.st2{fill:#AF1E32;}
+ .point-container>.point>.st3{fill:#A01E32;}
+ 
 
 
-.hidden{
-	display: none!important;
-
-}
 
 .hidding{
 	animation: hidding 300ms ease-in-out;

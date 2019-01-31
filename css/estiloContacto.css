@@ -1,12 +1,4 @@
-.navbar-custom {
-  background-color: transparent;
-  color:white!important;
-}
 
-.navbar-custom *{
-    color: white;
-    text-decoration: none;
- }
 
 h1 {
   position: relative;
@@ -14,7 +6,8 @@ h1 {
   font-family: Righteous;
   opacity: 0.6;
   font-size: 88px;
-z}
+  color: #ffffff;
+}
 
 input[type=text] control-label {
 color: #ffffff;
@@ -35,7 +28,7 @@ input[type=text], select {
 button {
   font-family: Comfortaa;
   position: relative;
-  left: 200px;
+  left: 180px;
   border:20px;
   color: #ffffff;
   width: 105px;
@@ -49,7 +42,6 @@ button {
 .form-contacto{
   width: 100%;
 }
-
 
 
 .form-group {
@@ -78,26 +70,6 @@ button {
   transition: all 0.28s ease;
   left: 0%;
 }
-
-.form-group .bar {
-  position: relative;
-  border-bottom: 0.0625rem solid #25a899;
-  display: block;
-}
-
-.form-group .bar::before {
-  content: '';
-  height: 0.125rem;
-  width: 0;
-  left: 50%;
-  bottom: -0.0625rem;
-  position: absolute;
-  background: #337ab7;
-  -webkit-transition: left 0.28s ease, width 0.28s ease;
-  transition: left 0.28s ease, width 0.28s ease;
-  z-index: 2;
-}
-
 
 
 .form-group input,
@@ -132,9 +104,11 @@ button {
 .form-group textarea.form-file ~ .control-label,
 .form-group textarea.has-value ~ .control-label {
   font-family: comfortaa;
-  font-size: .9rem;
+  font-size: 0.9rem;
   color:white;
   top: -1.3rem;
+
+
 
 }
 
@@ -151,29 +125,13 @@ button {
 
 
 .error-input{
-border-bottom: 2px solid red;
+border-bottom: 2px solid #AF1E32;
 }
 
 
 .error-label{
-color: red;
-font-size: 10px;
+color: #AF1E32;
+font-size: 11px;
 text-align: left;
 width: 100%;
 }
-
-
-.google-maps {
-position: relative;
-padding-bottom: 75%;
-height: 0;
-overflow: hidden;
-}
-  
-.google-maps iframe {
-position: absolute;
-top: 0;
-left: 0%;
-width: 100% !important;
-height: 50% !important;
-    }

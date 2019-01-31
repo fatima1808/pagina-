@@ -1,0 +1,73 @@
+.img-scrum-container{
+  position: fixed;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  top: 0;
+}
+
+.scrum-container-left{
+left: 0;
+}
+
+.scrum-container-right{
+right: 0;
+}
+.img-izquierda{
+  height: 70%;
+  position: absolute;
+  left: 0;
+}
+
+.img-derecha{
+  height: 70%;
+  position: absolute;
+  right: 0;
+}
+
+.contenedor{
+max-width: 1300px;
+
+}
+
+.titulo-srum{
+  font-family: 'Raleway';
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-srum{
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  max-width: 600px;
+
+}
+
+
+.metodologias-srum{
+  font-family: Raleway;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}

@@ -1,7 +1,11 @@
 *{margin: 0; border: 0;}
 
+html{
+  min-height: 100%;
+}
 body{
-  background-image: linear-gradient(to bottom, #5af3e3, #1fc6b4);
+background-image: linear-gradient(to bottom, #47f5e0, #3ce7e2 62%, #31d9e5);
+background-repeat: no-repeat;
 }
 
 .wrapper{
@@ -22,7 +26,8 @@ body{
 
 .contenedor{
 max-width: 1300px;
-padding:50px;   
+padding:50px; 
+padding-top: 200px;  
 }
 
 .footer {
@@ -32,7 +37,7 @@ padding:50px;
 }
 
 .logo{
-  width: 370px;
+  height: 4rem;
   max-width: 210px;
   position:center;
 }
@@ -75,9 +80,37 @@ text-align: center;
 }
 
 .navbar-custom{
-  background-color: transparent;
+  position: fixed;
+  width: 100vw;
+  max-width: 100%;
+  color:white!important;
+  background-color: transparent !important;
+  padding: 30px 103px;
+   transition: 300ms ease-in-out;
+   z-index: 1;
+}
+
+.navbar-custom > .navbar-collapse > .navbar-nav > .nav-item > .nav-link{
   color:white!important;
 }
+
+.navbar-custom > .navbar-collapse > .navbar-nav > .nav-item.active {
+  background-color: transparent !important;
+}
+
+.navbar-custom > .navbar-collapse > .navbar-nav > .nav-item.active > .nav-link{
+  color:#25a899!important;
+  background-color: transparent !important;
+}
+
+.navbar-custom-dark{
+  background-color: rgba(54,56,57, 0.75) !important;
+}
+
+.navbar-custom-up{
+  transform: translateY(-300px);
+}
+
 
 .navbar-custom *{
     color: white;
@@ -86,15 +119,15 @@ text-align: center;
 
 
 a{
-	color: white;
+  color: white;
 }
 
 p{
-	color: #ffffff;
+  color: #ffffff;
 }
 
 .img-logos{
-	width: 70px;
+  width: 70px;
 }
 
 .texto1{
@@ -114,11 +147,11 @@ width: 30px;
 }
 
 .texto1-opacidad{
-	opacity: 0.6;
+  opacity: 0.6;
 }
 
 .inline{
-	display: inline;
+  display: inline;
 }
 
 .column{
@@ -127,10 +160,10 @@ flex-direction: column;
 }
 
 #columna-contacto{
-	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
-	padding-right: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 20px;
 }
 
 #img-twitter{
@@ -144,5 +177,14 @@ flex-direction: column;
 
 
 #img-toma-turno{
-	margin-left: 20px;
+  margin-left: 20px;
+}
+
+.h-100vh{
+  height: 100vh;
+  max-height: 100%;
+}
+
+.invisible{
+  opacity: 0;
 }
