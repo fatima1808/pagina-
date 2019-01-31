@@ -1,0 +1,149 @@
+*{margin: 0; border: 0;}
+
+body{
+  background-image: linear-gradient(to bottom, #5af3e3, #1fc6b4);
+}
+
+.wrapper{
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;;
+}
+
+.contenedor-particulas{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+#particles-js { 
+}
+
+.contenedor{
+max-width: 1300px;
+padding: 10px  
+padding:50px;   
+}
+
+.footer {
+ background-color: #363839;
+ list-style:none;
+ padding: 50px;
+}
+
+.logo{
+  width: 370px;
+  height: 100px;
+  position:center;
+}
+
+.facebook{
+  width: 20px;
+  height: 30px;
+  position: relative;
+ left: 1%; 
+}
+
+.link{
+  width: 20px;
+  height: 30px;
+  position: relative;
+  left: 1.5%;
+}
+
+.twitter{
+  width: 20px;
+  height: 30px;
+  position: relative;
+  left: 2.5%;
+}
+
+.copyright{
+background-color: #282a2b;
+color: #ffffff;
+
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-text{
+text-align: center;
+}
+
+.navbar-custom{
+  background-color: transparent;
+  color:white!important;
+}
+
+.navbar-custom *{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+a{
+	color: white;
+}
+
+p{
+	color: #ffffff;
+}
+
+.img-logos{
+	width: 70px;
+}
+
+.texto1{
+  font-family: Comfortaa;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  
+  color: #ffffff;
+}
+
+.img-redes-sociales{
+width: 30px;
+}
+
+.texto1-opacidad{
+	opacity: 0.6;
+}
+
+.inline{
+	display: inline;
+}
+
+.column{
+display: flex;
+flex-direction: column;
+}
+
+#columna-contacto{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding-right: 20px;
+}
+
+#img-twitter{
+  margin-left: 20px;
+}
+
+#img-linked{
+  margin-left: 20px;
+}
+
+
+
+#img-toma-turno{
+	margin-left: 20px;
+}

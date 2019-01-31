@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+
+
+
+<a href="http://ec2-54-245-70-37.us-west-2.compute.amazonaws.com:3000/" target="_blank"><img src="img/productos-01.png"></a>
+
+
+<style>
+    #modal{
+        position:absolute;
+        width:80vw;
+        height:80vh;
+        left:10vw;
+        top:10vh;
+        background:rgba(0,0,0,0.7);  
+    }    
+    #close{
+        color:#FFFFFF;
+        position:absolute;
+        top:10px;
+        right:10px;
+    }
+</style>
+<title>Documento sin título</title>
+<script> 
+    function abremodal(){ $("body").append('<div id="modal"> <video> <source src="video.ogg" type="video/ogg"\><source src="video.mp4" type="video/mp4">Tu navegador no implementa el elemento</video><div id="close"> Cerrar </div></div>')
+
+$( "#close" ).click(function() {
+  $("#modal").remove() ;
+});
+}
+    </script>
+</head>
+
+<body>
+<div  onclick="abremodal();">abrir</div>
+</body>
+</html>

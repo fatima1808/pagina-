@@ -1,26 +1,3 @@
-*{margin: 0; border: 0;}
-
-body{
-  background-image: linear-gradient(to bottom, #5af3e3, #1fc6b4);
-}
-
-
-.wrapper{
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-  overflow: hidden;;
-}
-
-.contenedor-particulas{
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-}
-
-#particles-js { 
-
-}
 
 .titulo{
   opacity: 0.6;
@@ -61,18 +38,6 @@ body{
   color: #ffffff;
 }
 
-.logo{
-  width: 370px;
-  height: 100px;
-  position:center;
-}
-
-.contenedor{
-      max-width: 1300px;
-      padding: 10px
-     
-}
-
 .navbar-custom{
   background-color: transparent;
   color:white!important;
@@ -83,61 +48,9 @@ body{
     text-decoration: none;
 }
 
-.img-oficina{
-  width: 670px;
-  height: 380px;
-}
-
-
-.footer {
-  background-color: #363839;
- bottom: 0;
- width: 100%;
- height: 205px;
-}
-
-
-.facebook{
-  width: 20px;
-  height: 30px;
-  position: relative;
- left: 1%; 
-}
-
-
-.link{
-  width: 20px;
-  height: 30px;
-  position: relative;
-  left: 1.5%;
-}
-
-.twitter{
-  width: 20px;
-  height: 30px;
-  position: relative;
-  left: 2.5%;
-
-}
-
-
-.copyright{
-width: 100%;
-height: 51px;
-background-color: #282a2b;
-color: #ffffff;
-}
-
-
-
-.text{
-  color: white;
-}
-
 h1{
    width: 1680px;
-  
-  opacity: 0.6;
+   opacity: 0.6;
   font-family: 'Righteous', cursive;
   font-size: 88px;
   font-weight: normal;
@@ -248,8 +161,13 @@ h1{
   font-stretch: normal;
   line-height: 1.25;
   letter-spacing: normal;
-  text-align: center;
+  text-align:center;
   color: #ffffff;
+}
+
+.apoyamos{
+  display: flex;
+  justify-content: center;
 }
 
 .img-talento{
@@ -282,21 +200,10 @@ h1{
  font-family: 'Righteous';
  color: white;
  font-size: 55px;
- position: absolute;
  top: 6px;
- left: 440px;
+ left: 840px;
  opacity: 0.6;
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-}
-
-.texto-centro{
-  color:white;
-  font-size: 15px;
-  font-family: Comfortaa;
-  text-align: center;
-  position: absolute;
-  top: 105px;
-  left: 400px;
 }
 
 .equipo{
@@ -312,7 +219,6 @@ h1{
 }
 
 .certificado{
-    width: 468px;
     height: 143px;
     padding: 20px;
 }
@@ -325,15 +231,46 @@ h1{
   background-color: #25a899; 
 }
 
-.btn-nosotros{
+.btn-servicios{
   display: flex;
-  justify-content: flex-end;
+  justify-content:flex-end;
 }
 
 .linea{
   color: #ffffff;
   position: relative;
   line-height: 1.15;
+}
 
+.img-equipo{
+    height: 350px;
+}
 
+ .centro-texto{
+  color:white;
+  font-size: 20px;
+  font-family: Comfortaa;
+  text-align: center;
+  top: 150px;
+  left: 232px;
+}
+
+#ambicionamos-img{
+ background-image: url(../img/Horizonte2.jpg);
+ width: 1000px;
+ background-repeat: no-repeat;
+ background-origin: border-box;
+ background-position: center;
+ background-size: cover;
+ padding: 50px;
+ margin: 109px 0;
+}
+#ambicionamos-img h5{
+  color: #ffffff;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
