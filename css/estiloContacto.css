@@ -1,16 +1,29 @@
+.navbar-custom {
+  background-color: transparent;
+  color:white!important;
+}
 
+.navbar-custom *{
+    color: white;
+    text-decoration: none;
+ }
 
-h1 {
-  position: relative;
-  left: 250px;
+.contenedor-formulario{
+  max-width: 900px;
+}
+
+.titulo-contacto{
+  position:relative;
+  left:250px;
   font-family: Righteous;
-  opacity: 0.6;
+  opacity:0.6;
   font-size: 88px;
-  color: #ffffff;
+  color:#ffffff;
 }
 
 input[type=text] control-label {
-color: #ffffff;
+  color: #ffffff;
+  border-radius: 5px;
 } 
 
 input[type=text], select {
@@ -44,6 +57,7 @@ button {
 }
 
 
+
 .form-group {
   position: relative; 
   margin-top: 2.25rem;
@@ -56,6 +70,9 @@ button {
   display: inline-block;
   margin-bottom: 0;
 }
+
+
+
 
 .form-group .control-label {
   position: absolute;
@@ -70,6 +87,7 @@ button {
   transition: all 0.28s ease;
   left: 0%;
 }
+
 
 
 .form-group input,
@@ -107,10 +125,8 @@ button {
   font-size: 0.9rem;
   color:white;
   top: -1.3rem;
-
-
-
 }
+
 
 .form-group select:focus,
 .form-group input:focus,
@@ -135,3 +151,37 @@ font-size: 11px;
 text-align: left;
 width: 100%;
 }
+
+
+
+@media only screen and (min-width: 360px) {
+ h1{
+ font-size: 50px;
+ position: relative;
+ left: 10px;
+    
+ }
+}
+
+
+@media only screen and (min-width: 360px){
+
+  .form-group{
+    width:100%;
+
+ }
+}
+
+
+@media only screen and (min-width: 360px){
+
+  button{
+  position: relative;
+  left: 2px;
+  
+ }
+}
+
+
+
+

@@ -36,6 +36,17 @@
   color: #ffffff;
 }
 
+.img-oficina{
+  height: 466px;
+}
+
+.img-columna{
+width: 250px;
+}
+
+h1{
+  opacity: 0.6;
+  font-family: Righteous;
 
 
 h2{
@@ -103,6 +114,10 @@ button{
   display: flex;
   justify-content: center;
 }
+
+
+
+
 
 
 
