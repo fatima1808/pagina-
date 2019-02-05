@@ -196,10 +196,13 @@
   color: #ffffff;
 }
 
-.certificado{
-    height: 143px;
-    padding: 20px;
+.certificado {
+  height: 130px;
+  padding: 15px 30px;
+  margin-top: 25px;
 }
+
+
 
 .btn{
   font-family: Comfortaa;
@@ -325,16 +328,20 @@
   justify-content: space-between;
 }
 
-@media only screen and (min-width: 560px) {
+@media only screen and (min-width: 576px) {
   .Enunciado, .linea{
      font-size: 65px;
   }
+  .certificado {
+    height: 180px; 
+    padding: 20px 65px;
+}
 } 
 
 .linea{
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   font-family: Righteous;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
