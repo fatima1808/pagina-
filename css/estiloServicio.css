@@ -1,6 +1,6 @@
 .titulo-bloques{
   font-family: Montserrat;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -10,22 +10,16 @@
   color: #ffffff;
 }
 
-.logo{
-  width: 370px;
-  height: 100px;
-  position:center;
-}
-
 .contenedor{
       max-width: 1300px;
-      padding: 10px
+      padding: 0;
+      padding-top: 200px;
 }
 
 
 .img-columna{
-  height: 200px;
+  height: 300px;
 }
-
 
 .parrafo-bloques{
   font-family: Montserrat;
@@ -38,17 +32,10 @@
   text-align: center;
 }
 
-
-.img-personal{
-  width: 250px;
-  height: 413px;
-}
-
-
 .servicio{
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   font-family: Raleway;
-  font-size: 50px;
+  font-size: 80px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -88,17 +75,6 @@
   color: #25a899;
 }
 
-.mas2 {
-  font-family: Comfortaa;
-  font-size: 21px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.14;
-  letter-spacing: normal;
-  text-align: center;
-  color: #25a899;
-}
 
 
 .mas{
@@ -118,6 +94,19 @@
   flex-direction: column;
 }
 
-.titulo-izquierda{
-  justify-content: flex-start;
+.contenedor>.row{
+  padding: 50px;
+  background-image: linear-gradient(to bottom, #47f5e0, #3ce7e2 62%, #31d9e5);
+  
+}
+
+@media only screen and (min-width: 576px) {
+  .contenedor{
+    padding: 50px;
+    padding-top: 200px;
+  }
+  .contenedor>.row{
+    background-image: none;
+    padding: 0;
+  }
 }
