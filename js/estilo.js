@@ -3,22 +3,24 @@ var red = $(".letter-container, .point-container");
 var tiempo = 2500;
 var tiempoanimacion = 3800;
 
-red.ready(function(){
-	window.setTimeout(function(){
+red.ready(function () {
+	window.setTimeout(function () {
 		red.addClass("hidding");
-	},tiempo);
+	}, tiempo);
 
 });
 
 
-slogan.ready(function(){
-	window.setTimeout(function(){
+slogan.ready(function () {
+	window.setTimeout(function () {
 		slogan.addClass("showing");
-	},tiempo);
+	}, tiempo);
 });
 
-$("body").ready(function(){
-	window.setTimeout(function(){
+
+
+$("body").ready(function () {
+	window.setTimeout(function () {
 		window.location.replace("./home.html");
-	},tiempoanimacion);
+	}, tiempoanimacion);
 });
