@@ -13,13 +13,13 @@
 }
 
 .titulo-contacto{
-  position:relative;
-  left:250px;
-  font-family: Righteous;
-  opacity:0.6;
-  font-size: 88px;
-  color:#ffffff;
+    position: relative;
+    font-family: Righteous;
+    opacity: 0.6;
+    font-size: 50px;
+    color: #ffffff;
 }
+
 
 input[type=text] control-label {
   color: #ffffff;
@@ -40,8 +40,6 @@ input[type=text], select {
 
 button {
   font-family: Comfortaa;
-  position: relative;
-  left: 180px;
   border:20px;
   color: #ffffff;
   width: 105px;
@@ -62,7 +60,7 @@ button {
   position: relative; 
   margin-top: 2.25rem;
   margin-bottom: 2.25rem;
-  width: 50%;
+  width: 100%;
 }
 
 .form-inline > .form-group,
@@ -70,8 +68,6 @@ button {
   display: inline-block;
   margin-bottom: 0;
 }
-
-
 
 
 .form-group .control-label {
@@ -87,7 +83,6 @@ button {
   transition: all 0.28s ease;
   left: 0%;
 }
-
 
 
 .form-group input,
@@ -152,36 +147,69 @@ text-align: left;
 width: 100%;
 }
 
+.form-width{
+  width: 80%;
+  max-width: 600px;
+}
 
+.map-placeholder{
+  min-height: 640px;
+}
 
-@media only screen and (min-width: 360px) {
- h1{
- font-size: 50px;
- position: relative;
- left: 10px;
-    
- }
+#map{
+  padding: 0;
+  margin: 0;
+  border: none;
+  position: absolute;
+  width: 100vw;
+  height: 640px;
+  max-width: 100%;
+  background-image: url(../img/Mapa\ 360_640\ Red.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  left: 0;
 }
 
 
-@media only screen and (min-width: 360px){
-
-  .form-group{
-    width:100%;
-
+@media only screen and (min-width: 576px) {
+ .titulo-contacto{
+  font-size: 50px;
+  position: relative;
+  left: 10px;
  }
-}
-
-
-@media only screen and (min-width: 360px){
+ .titulo-contacto {
+    position: relative;
+    left: 250px; 
+    font-family: Righteous;
+    opacity: 0.6;
+    font-size: 88px;
+    color: #ffffff;
+  }
 
   button{
-  position: relative;
-  left: 2px;
-  
- }
-}
+    position: relative;
+    left: 200px;
 
+  }
+  .form-group{
+    width:100%;
+  }
+
+  .map-placeholder{
+    min-height: 100vh;
+    max-height: 1920px;
+  }
+  
+  #map{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 1920px;
+    background-image: url(../img/Mapa\ 1920_1080\ Red.svg);
+    
+  }
+}
 
 
 
