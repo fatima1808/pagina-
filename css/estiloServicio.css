@@ -1,6 +1,6 @@
-.titulo{
+.titulo-bloques{
   font-family: Montserrat;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -23,20 +23,19 @@
 
 
 .img-columna{
-    height: 350px;
+  height: 200px;
 }
 
 
-.parrafo{
+.parrafo-bloques{
   font-family: Montserrat;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.2;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
+  line-height: 1.25;
+  letter-spacing: 0.2px;
+  text-align: center;
 }
 
 
@@ -47,16 +46,15 @@
 
 
 .servicio{
-  opacity: 0.6;
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  font-family: 'Raleway', sans-serif;
-  font-size: 88px;
-  font-weight: normal;
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.25;
+  line-height: 1.18;
   letter-spacing: normal;
-  text-align: right;
+  text-align: left;
   color: #ffffff;
 }
 
@@ -74,25 +72,31 @@
 }
 
 .iconoMas{
-   width: 100px;
+   width: 50px;
   height: 25px;
 }
 
 .mas1 {
   font-family: Comfortaa;
-  font-size: 20px;
-  font-weight: 1000;
-  line-height: 1.15;
-  text-align:  center;
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: center;
   color: #25a899;
 }
 
 .mas2 {
   font-family: Comfortaa;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 1.15;
-  text-align:  right;
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: center;
   color: #25a899;
 }
 
@@ -100,4 +104,20 @@
 .mas{
   display: flex;
   justify-content: flex-end;
+}
+
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.columna{
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-izquierda{
+  justify-content: flex-start;
 }
