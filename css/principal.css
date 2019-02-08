@@ -15,14 +15,6 @@ background-repeat: no-repeat;
   overflow: hidden;;
 }
 
-.contenedor-particulas{
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-}
-
-#particles-js { 
-}
 
 .contenedor{
 max-width: 1300px;
@@ -113,8 +105,8 @@ text-align: center;
 
 
 .navbar-custom *{
-    color: white;
-    font-family: 'Comfortaa', cursive;
+  color: white;
+  font-family: 'Comfortaa', cursive;
 }
 
 
@@ -188,3 +180,4 @@ flex-direction: column;
 .invisible{
   opacity: 0;
 }
+

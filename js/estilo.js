@@ -1,22 +1,28 @@
 var slogan = $("#slogan");
-var red = $(".letter-container, .point-container");
-var tiempo = 2500;
-var tiempoanimacion = 3800;
+var soluciones = $("#soluciones");
+var red = $(".letter-container, .point-container, #soluciones");
+var tiempo = 4000;
+var tiempoespera = 3000;
+var tiempoanimacion = 6500;
 
-red.ready(function () {
-	window.setTimeout(function () {
-		red.addClass("hidding");
+ red.ready(function () {
+ 	window.setTimeout(function () {
+ 		red.addClass("hidding");
 	}, tiempo);
 
-});
+ });
 
-
-slogan.ready(function () {
+soluciones.ready(function () {
 	window.setTimeout(function () {
-		slogan.addClass("showing");
-	}, tiempo);
+		soluciones.addClass("showing");
+	}, tiempoespera);
 });
 
+ slogan.ready(function () {
+ 	window.setTimeout(function () {
+ 		slogan.addClass("showing");
+ 	}, tiempo);
+ });
 
 
 $("body").ready(function () {
@@ -24,3 +30,4 @@ $("body").ready(function () {
 		window.location.replace("./home.html");
 	}, tiempoanimacion);
 });
+
