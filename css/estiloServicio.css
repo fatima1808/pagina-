@@ -18,7 +18,7 @@
 
 
 .img-columna{
-  height: 300px;
+  height: 30vh;
 }
 
 .parrafo-bloques{
@@ -35,7 +35,7 @@
 .servicio{
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   font-family: Raleway;
-  font-size: 80px;
+  font-size: 65px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -108,5 +108,11 @@
   .contenedor>.row{
     background-image: none;
     padding: 0;
+  }
+  .img-columna{
+    height: 350px;
+  }
+  .servicio{
+    font-size: 80px;
   }
 }

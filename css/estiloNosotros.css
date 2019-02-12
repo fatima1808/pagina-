@@ -160,9 +160,9 @@
 }
 
 .certificado {
-  height: 130px;
-  padding: 15px 30px;
-  margin-top: 25px;
+  height: 100px;
+  padding: 15px 35px;
+  margin-top: 30px;
 }
 
 
@@ -309,8 +309,8 @@
      font-size: 80px;
   }
   .certificado {
-    height: 180px; 
-    padding: 20px 65px;
+  height: 120px; 
+  padding: 17px 58px;
 }
 .titulo{
   font-size: 80px;
