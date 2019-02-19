@@ -1,3 +1,4 @@
+
 $("body").ready(function (event) {
 	var url_string = window.location.href;
 	var url = new URL(url_string);
@@ -45,22 +46,22 @@ $("#btn-enviar").click(function (event) {
 		"tipo": tipo,
 
 	};
-	
-	 $.ajax({
-	 	url: "192.168.0.20/test.php",
-	 	method: "POST",
-	 	data: datos,
-	 	success: function (response) {
-	 		console.log(response.statusMessage);
-		$("#modal-envio").modal("show");
-	 	},
-	 	error: function (err) {
-			 console.error(err);
-			 $("#modal-error").modal("show");
-		 }
-		
+
+	$.ajax({
+		url: "192.168.0.20/test.php",
+		method: "POST",
+		data: datos,
+		success: function (response) {
+			console.log(response.statusMessage);
+			$("#modal-envio").modal("show");
+		},
+		error: function (err) {
+			console.error(err);
+			$("#modal-error").modal("show");
+		}
+
 	})
-	
+
 });
 
 function isEmpty(id) {
@@ -85,7 +86,7 @@ function isEmail(id) {
 	var dato = $("#" + id).val();
 	if (!emailRegex.test(dato)) {
 		$("#" + id).addClass("error-input");
-		$("label[for='" + id +"']").html("<i class=\"fas fa-exclamation-triangle\"></i> &nbsp; Formato no válido");
+		$("label[for='" + id + "']").html("<i class=\"fas fa-exclamation-triangle\"></i> &nbsp; Formato no válido");
 		return false;
 	}
 	return true;
@@ -93,18 +94,46 @@ function isEmail(id) {
 
 
 $('#modal-envio').on('shown.bs.modal', function () {
-	setTimeout(function(){
+	setTimeout(function () {
 		$('#modal-envio').modal("hide");
-	},3480)
-	
+	}, 3480)
+
 })
 
 $('#modal-error').on('shown.bs.modal', function () {
-	setTimeout(function(){
+	setTimeout(function () {
 		$('#modal-error').modal("hide");
-	},3480)
-	
+	}, 3480)
+
 })
+
+
+
+$("#map").click(function (event) {
+	//redirecciona a maps
+});
+
+
+
+
+$("#map-trigger").hover(
+	function (event) {
+		$("#map").css({ "background-image":"url(../img/Mapa\ 1920_1080\ hover.svg"});
+
+	},
+
+	function (event) {
+		$("#map").css({ "background-image":"url(../img/Mapa\ 1920_1080\ Red.svg"});
+
+	});
+
+
+
+
+
+
+
+
 
 
 
