@@ -4,12 +4,12 @@ body{
 
 
 .contenedor{
-  max-width: 1100px;
-  height:657px;
+  max-width: 1000px;
+  
 }       
 
 .imagen{
- height: 391px;
+ height: 340px;
  display: block;
  margin: auto;
  position: relative;
@@ -67,6 +67,228 @@ justify-content: flex-end;
 }
 
 
+.titulo-proponemos{
+  font-family: Comfortaa;
+  font-size: 50px;
+  margin:auto;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  display: block;
+  text-align: left;
+  color: #ffffff;
+}
+
+.texto-empresa{
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 23.5px;
+  text-align: left;
+  margin-left: 36px;
+}
+
+.btn{
+  font-family: Comfortaa;
+  border:100px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #25a899; 
+  text-align: left;
+  margin: auto;
+}
+
+.btn-flex{
+	display: flex;
+  justify-content:flex-end;
+}
+
+.propuesta{
+  height: 280px;
+  display: block;
+  margin: auto;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.columna{
+  display: flex;
+  flex-direction: column;
+}
+
+.texto1{
+  font-family: Comfortaa;
+  font-size: 50px;
+  margin:auto;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  display: block;
+  text-align: left;
+  color: #ffffff;
+}
+
+.texto2{
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 23.5px;
+  text-align: left;
+  margin-left: 36px;
+}
+
+.btn{
+  font-family: Comfortaa;
+  border:100px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #25a899; 
+    text-align: left;
+  margin: auto;
+}
+
+.btn-flex{
+	display: flex;
+  justify-content:flex-end;
+}
+
+.gif{
+  height: 180px;
+  display: block;
+  margin: auto;
+
+}
+
+
+.columna{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+h2{
+  font-family: Righteous;
+  color: #ffffff;
+  font-size: 80px;
+  text-align: center;
+  }
+  
+  
+  
+  .imagen{
+  display: block;
+  margin: auto;
+   height: 403px;
+   }
+  
+  
+   .h-100vh {
+    height: 100vh;
+    max-height: 100%;
+  }
+  
+  .w-100vw {
+    width: 100vw;
+    max-width: 100%;
+  }
+
+  
+  .btn{
+    display: block;
+    margin:auto;
+    font-family: Comfortaa;
+    border:20px;
+    color: #ffffff;
+    width: 135px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #25a899;
+    position:relative;
+    top:5%;
+  }
+  
+  
+  .texto {
+    text-align: center;
+    display: flex;
+    width: 500px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 40px;
+    font-family: comfortaa;
+    position: relative;
+    top: 1;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+    }
+   
+
+
+    .align-up {
+      float:up;
+     
+    }
+    
+    .align-down {
+      float:down;
+   
+    }
+  
+
+    .slide-in {
+      opacity:0;
+      transition:all .8s;
+    }
+    
+    .align-up.slide-in {
+      transform:translateY(-30%) scale(0.95);
+    }
+    .align-down.slide-in {
+      transform:translateY(30%) scale(0.95);
+    }
+    
+    .slide-in.active {
+      opacity:1;
+      transform:translateY(0%) scale(1);
+    }
+
+
+
+
+  
+  .animacion-texto {
+    list-style:none;
+    padding-left: 10px;
+    margin: 0;
+    animation: girar 5s infinite;
+  }
+  
+  .espacio-animacion{
+  height: 43px;
+  
+  }
+  
+  
+  
+  @keyframes girar  {
+    
+    0%{ margin-top: 40px;}
+  
+    15%{ margin-top: 0px;}
+    50% {margin-top: 0px;}
+  
+    75% {margin-top: -80px;}
+    85%{margin-top: -80px;}
+    100% {margin-top: -120px;}
+    
+  }
 
 
 @media screen and (min-width: 241px;){
