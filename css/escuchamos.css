@@ -12,53 +12,39 @@ body{
  height: 340px;
  display: block;
  margin: auto;
- position: relative;
- 
 }
-
 
 .titulo{
   display: block;
   margin: auto;
-  width: 291px;
-  height: 225px;
   font-family: Montserrat;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 7;
+  line-height:43px;
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
-  position: relative;
-
 }
 
 .parrafo{
+  text-align: justify;
   display: block;
   margin: auto;
   color: #ffffff;
   letter-spacing: 0.2px;
   font-family:comfortaa;
-  font-size: 20px;
-  position: relative;
-
-
+  font-size: 15px;
   }
 
 
 .btn{
-  font-family: Comfortaa;
+  font-family:Comfortaa;
   border:20px;
   color: #ffffff;
-  width: 160px;
-  height: 35px;
   border-radius: 4px;
   background-color: #25a899;
-  position: relative;
-  left: -190px;
-
 }
 
 .btn-flex{

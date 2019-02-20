@@ -132,7 +132,6 @@ a{
 }
 
 
-
 p{
   color: #ffffff;
 }
@@ -198,14 +197,19 @@ flex-direction: column;
   max-height: 100%;
 }
 
+.w-100vw{
+  width: 100vw;
+  max-width: 100%;
+}
+
 .invisible{
   opacity: 0;
 }
 
 @media only screen and (min-width: 576px){
   .copyright{
-    background-color: #282a2b;
-    font-family: Quicksand;
+  background-color: #282a2b;
+  font-family: Quicksand;
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
