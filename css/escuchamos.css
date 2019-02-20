@@ -1,41 +1,28 @@
 body{
- background-image: linear-gradient(to bottom, #47f5e0, #3ce7e2 62%, #31d9e5);
+  background-image: linear-gradient(to bottom, #1949a7, #1949a7 49%, rgba(53, 0, 122, 0.84));
 }
 
-
 .contenedor{
-  max-width: 1000px;
-  
-}       
+max-width: 1100px;
+height: 969px;
+}   
 
 .imagen{
  height: 340px;
  display: block;
  margin: auto;
+ position: relative;
 }
 
-.titulo{
-  display: block;
-  margin: auto;
-  font-family: Montserrat;
-  font-size: 30px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height:43px;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
-}
+
 
 .parrafo{
-  text-align: justify;
-  display: block;
   margin: auto;
   color: #ffffff;
   letter-spacing: 0.2px;
   font-family:comfortaa;
-  font-size: 15px;
+  font-size: 20px;
+  text-align: left;
   }
 
 

@@ -85,13 +85,28 @@ font-size: 18px;
 color: #ffffff;
 }
 
+.canv-container{
+  position: absolute!important;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  max-width: 100%;
+  z-index: -50;
+}
+
+#header-canvas{
+  max-width: 100%;
+  position: absolute!important;
+}
+
+
 .navbar-custom{
   position: fixed;
   width: 100vw;
   max-width: 100%;
   color:white!important;
   background-color: transparent !important;
-  padding: 30px 103px; 
+  padding: 20px 103px; 
   padding-left: 12px;
    transition: 300ms ease-in-out;
    z-index: 1;
@@ -120,7 +135,8 @@ color: #ffffff;
 
 
 .navbar-custom *{
-  color:#25a899;
+  color:#ffbd41;
+  border: none;
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
 }
@@ -219,8 +235,6 @@ flex-direction: column;
   text-align: center;
   color: #868b8b;
   }
-
-
   .logo-nav{
     display: block;
   }
