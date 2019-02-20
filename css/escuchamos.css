@@ -27,11 +27,15 @@ height: 969px;
 
 
 .btn{
-  font-family:Comfortaa;
+  font-family:'Quicksand'Medium;
+  font-size: 20px;
+  margin-right: 50px;
+  width: 180px;
+  height: 40px;
   border:20px;
-  color: #ffffff;
-  border-radius: 4px;
-  background-color: #25a899;
+  color:#563eb3;
+  border-radius: 20px;
+  background-color:#ffbd41;
 }
 
 .btn-flex{
