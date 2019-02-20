@@ -110,7 +110,7 @@ $('#modal-error').on('shown.bs.modal', function () {
 
 
 $("#map-trigger").click(function (event) {
-	window.location.href = "https://goo.gl/maps/iozENHSG6CC2";
+	window.location.href ="https://goo.gl/maps/iozENHSG6CC2";
 	//redirecciona a maps
 });
 
