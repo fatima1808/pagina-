@@ -6,7 +6,7 @@ body{
 
 .contenedor{
 	max-width: 1100px;
-	height: 915px;
+	height: 945px;
 	}
 	
 
@@ -14,7 +14,6 @@ h2{
 font-family: Righteous;
 color: #ffffff;
 font-size: 80px;
-opacity: 0.6;
 text-align: center;
 }
 

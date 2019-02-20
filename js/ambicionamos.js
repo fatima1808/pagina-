@@ -34,14 +34,14 @@
                     imgRight2.css({ "opacity": 0 });
 
                 } else {
-                    imgContainerLeft.css({ "transform": "translateX(" + (((scrollPos - textBlock2.offset().top) / (imgContainer.height() * 2)) * (windowWidth * 0.75) - imgLeft2.height() / 2) + "px)" });
-                    imgContainerRight.css({ "transform": "translateX(" + (-(((scrollPos - textBlock2.offset().top) / (imgContainer.height() * 2)) * (windowWidth * 0.75)) + imgLeft2.height() / 2) + "px)" });
+                    imgContainerLeft.css({ "transform": "translateX(" + (((scrollPos - textBlock2.offset().top) / (imgContainer.height() )) * (windowWidth * 0.2)   ) + "px)" });
+                    imgContainerRight.css({ "transform": "translateX(" + (-(((scrollPos - textBlock2.offset().top) / (imgContainer.height() )) * (windowWidth * 0.2 )) ) + "px)" });
 
-                    imgLeft1.css({ "opacity": 0 });
-                    imgLeft2.css({ "opacity": 1 });
+                    imgLeft1.css({ "opacity": 1 });
+                    imgLeft2.css({ "opacity": 0 });
                     imgLeft3.css({ "opacity": 0 });
-                    imgRight1.css({ "opacity": 0 });
-                    imgRight2.css({ "opacity": 1 });
+                    imgRight1.css({ "opacity": 1 });
+                    imgRight2.css({ "opacity": 0 });
 
                     if (scrollPos >= textBlock3.offset().top - imgContainer.height() / 5) {
                         imgLeft1.css({ "opacity": 0 });

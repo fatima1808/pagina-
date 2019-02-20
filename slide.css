@@ -1,0 +1,216 @@
+*{margin: 0; border: 0;}
+
+html{
+  min-height: 100%;
+}
+body{
+  background-image: linear-gradient(to bottom, #1949a7, #1949a7 49%, rgba(53, 0, 122, 0.84));
+background-repeat: no-repeat;
+}
+
+.contenedor{
+    padding: 0;
+    padding-top: 200px;
+}
+
+.block{
+  width: 100%
+}
+  
+  .titulo-proponemos{
+    font-family: 'Days One', sans-serif;
+    font-size: 50px;
+    margin:auto;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    display: block;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+
+
+  .texto-empresa{
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 23.5px;
+    text-align: left;
+    margin-left: 36px;
+  }
+  
+  .btn{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #563eb3;
+    border-radius: 20px;
+    line-height: 1.25;
+    background-color:#ffbd41;
+    text-align: left;
+    margin: auto;
+  }
+  
+  .btn-flex{
+      display: flex;
+    justify-content:flex-end;
+  }
+  
+  .contenedor>.row{
+    padding: 50px;
+    background-image: linear-gradient(to bottom, #1949a7, #1949a7 49%, rgba(53, 0, 122, 0.84));
+  }
+
+
+  .propuesta{
+    height: 280px;
+    display: block;
+    margin: auto;
+  }
+  
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .columna{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .imagen{
+    height: 260px;
+    display: block;
+    margin: auto;
+    position: relative;
+   }
+
+   .titulo-escuchamos{
+    font-family: Comfortaa;
+    font-size: 50px;
+    margin:auto;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    display: block;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+.parrafo{
+    color: #ffffff;
+    letter-spacing: 0.2px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 20px;
+    }
+
+    .texto1{
+      font-family: 'Days One', sans-serif;
+        font-size: 50px;
+        margin:auto;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        display: block;
+        text-align: left;
+        color: #ffffff;
+      }
+      
+      .texto2{
+        color: #ffffff;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 36px;
+      }
+
+      .gif{
+        height: 150px;
+        display: block;
+        margin: auto;
+      
+      }
+
+      h2{
+        font-family: 'Days One', sans-serif;
+        color: #ffffff;
+        font-size: 65px;
+        text-align: center;
+        }
+
+        .imagen-resultado{
+          display: block;
+          margin: auto;
+           height: 403px;
+           }
+            
+          .texto {
+            text-align: center;
+            display: flex;
+            width: 500px;
+            height: 40px;
+            color: #ffffff;
+            font-size: 40px;
+            line-height: 40px;
+            font-family: comfortaa;
+            position: relative;
+            top: 1;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            overflow: hidden;
+            }
+          
+          
+          
+          .animacion-texto {
+            list-style:none;
+            padding-left: 10px;
+            margin: 0;
+            font-family: 'Quicksand', sans-serif;
+            animation: girar 5s infinite;
+          }
+          
+          .espacio-animacion{
+          height: 30px;
+          
+          }
+          
+          
+          
+          @keyframes girar  {
+            
+            0%{ margin-top: 40px;}
+          
+            15%{ margin-top: 0px;}
+            50% {margin-top: 0px;}
+          
+            75% {margin-top: -80px;}
+            85%{margin-top: -80px;}
+            100% {margin-top: -120px;}
+            
+          }        
+      
+  
+      @media only screen and (min-width: 576px) {
+        .texto2{
+            font-size: 23.5px;
+        }
+        .parrafo{
+            font-size: 24px;
+        }
+        .imagen{
+          height: 340px;
+        }
+        .gif{
+          height: 180px;
+      }
+      .espacio-animacion{
+        height: 43px;
+        
+        }
+        
+    }

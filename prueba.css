@@ -8,10 +8,6 @@ body{
 background-repeat: no-repeat;
 }
 
-
-
- 
-
 .center {
   display: flex;
   justify-content: center;
@@ -96,7 +92,7 @@ background-repeat: no-repeat;
 
 .text-bloc-2{
   font-family: 'Quicksand', sans-serif;
-  width: 474px;
+  width: 50%;
   text-shadow: 0 2px 2px rgba(45, 45, 45, 0.5);
   font-size: 35px;
   font-weight: 500;
