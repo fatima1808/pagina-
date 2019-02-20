@@ -12,13 +12,12 @@
   max-width: 900px;
 }
 
+
 .titulo-contacto{
-  position:relative;
-  left:250px;
-  font-family: Righteous;
-  opacity:0.6;
-  font-size: 88px;
-  color:#ffffff;
+    position: relative;
+    font-family:'Days One';
+    font-size: 50px;
+    color: #ffffff;
 }
 
 input[type=text] control-label {
@@ -27,28 +26,30 @@ input[type=text] control-label {
 } 
 
 input[type=text], select {
-   font-family: Comfortaa;
+   font-family: 'Quicksand'Medium;
    line-height: 15px;
-   color:#25a899;
+   font-size: 20px;
+   color:#563eb3;
     width: 100%;
-    padding: 8px 8px;
+    padding: 6px 6px;
     margin: 8px 0;
     display: inline-block;
     box-sizing: border-box;
 }
 
 
-button {
-  font-family: Comfortaa;
-  position: relative;
-  left: 180px;
-  border:20px;
-  color: #ffffff;
-  width: 105px;
-  height: 35px;
-  border-radius: 4px;
-  background-color: #25a899;
+.for[type=text], select {
+  border-radius:5px;
+}
 
+
+ .btn{
+  font-family:'Quicksand'Medium;
+  color: #563eb3;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background-color:#ffbd41;
 }
 
 
@@ -57,12 +58,11 @@ button {
 }
 
 
-
 .form-group {
   position: relative; 
-  margin-top: 2.25rem;
+  margin-top: 4rem;
   margin-bottom: 2.25rem;
-  width: 50%;
+  width: 100%;
 }
 
 .form-inline > .form-group,
@@ -72,14 +72,13 @@ button {
 }
 
 
-
-
 .form-group .control-label {
   position: absolute;
   top: 0.25rem;
   pointer-events: none;
   padding-left: 0.125rem;
   z-index: 1;
+  font-family:'Quicksand'Medium;
   color: #ffffff;
   font-size: 1rem;
   font-weight: normal;
@@ -87,7 +86,6 @@ button {
   transition: all 0.28s ease;
   left: 0%;
 }
-
 
 
 .form-group input,
@@ -98,7 +96,7 @@ button {
   font-size: 1rem;
   line-height: 1.9;
   width: 100%;
-  color: #ffffff;
+  color: #ffbd41;
   -webkit-transition: all 0.28s ease;
   transition: all 0.28s ease;
   box-shadow: none;
@@ -121,8 +119,8 @@ button {
 .form-group textarea:valid ~ .control-label,
 .form-group textarea.form-file ~ .control-label,
 .form-group textarea.has-value ~ .control-label {
-  font-family: comfortaa;
-  font-size: 0.9rem;
+  font-family: 'Quicksand'Medium;
+  font-size: 1rem;
   color:white;
   top: -1.3rem;
 }
@@ -136,52 +134,157 @@ button {
 
 
 .input-contacto{
-  border-bottom: 1px solid #25a899;
+  border-bottom: 1px solid  
 }
-
 
 .error-input{
-border-bottom: 2px solid #AF1E32;
+border-bottom: 2px solid #FF847E;
+padding-top: 1px;
 }
-
 
 .error-label{
-color: #AF1E32;
-font-size: 11px;
-text-align: left;
-width: 100%;
+  /* background-image:url(../img/alertaIcono.svg); */
+  background-repeat: no-repeat;
+  color:#FF847E;
+  text-align:left;
+  font-size: 13px;
+  width: 100%;
+  padding-top:
+}
+
+.form-width{
+  width: 80%;
+  max-width: 600px;
+}
+
+.map-placeholder{
+  min-height: 640px;
+}
+
+#map{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 100vw;
+  height: 640px;
+  max-width: 100%;
+  background-image: url(../00_Imagenes/WEB/Mapa360_640Red.svg);
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  left: 0;
+}
+
+#map-trigger{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 100px;
+  height: 100px;
 }
 
 
 
-@media only screen and (min-width: 360px) {
- h1{
- font-size: 50px;
- position: relative;
- left: 10px;
+@media only screen and (min-width: 576px) {
+ .titulo-contacto{
+  font-size: 50px;
+  position: relative;
+  left: 10px;
+ }
+
+ .titulo-contacto {
+    position: relative; 
+    left: 250px; 
+    font-family:'Days One';
     
- }
-}
-
-
-@media only screen and (min-width: 360px){
-
-  .form-group{
-    width:100%;
-
- }
-}
-
-
-@media only screen and (min-width: 360px){
+    font-size: 75px;
+    color: #ffffff;
+  }
 
   button{
-  position: relative;
-  left: 2px;
+    position: relative;
+    left: 200px;
+  }
   
- }
+  .form-group{
+    width:100%;
+  }
+
+  .map-placeholder{
+    min-height: 100vh;
+    max-height: 1920px;
+  }
+
+  #map{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 1920px;
+    background-image: url(../00_Imagenes/WEB/Mapa1920_1080Red.svg);
+  }
 }
 
 
+/* MODAL DE ENVIO*/
+.modal-content{
+  border-radius: 30px;
+}
+
+.texto-enviado{
+  color: #2d2d2d;
+  font-family: Quicksand;
+  font-weight:bold;
+  font-size: 24px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.texto2{
+  color: #2d2d2d;
+  font-family:Quicksand;
+  font-weight:bold;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.palomita{
+  display: block;
+  margin: auto;
+  height: 80px;
+}
 
 
+/* MODAL DE ERROR*/
+.modal-content{
+  border-radius: 30px;
+}
+
+.tache{
+  display: block;
+  margin: auto;
+  height: 80px; 
+}
+
+.error{
+  color: #2d2d2d;
+  font-family: Quicksand;
+  font-weight:bold;
+  font-size: 24px;
+  line-height: 2px;
+  text-align: center;
+}
+
+.error2{
+  color: #2d2d2d;
+  font-family:Quicksand;
+  font-weight:bold;
+  font-size: 17px;
+  text-align: center;
+}
+
+.align-items-center{
+  text-decoration: none;
+}

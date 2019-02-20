@@ -1,11 +1,12 @@
 .titulo-bloques{
-  font-family: Montserrat;
+  font-family: 'Days One', sans-serif;
+  text-shadow: 0 2px 2px rgba(45, 45, 45, 0.5);
   font-size: 40px;
-  font-weight: 600;
+  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.23;
-  letter-spacing: normal;
+  line-height: 1.13;
+  letter-spacing: 0.4px;
   text-align: center;
   color: #ffffff;
 }
@@ -22,9 +23,10 @@
 }
 
 .parrafo-bloques{
-  font-family: Montserrat;
-  font-size: 20px;
-  font-weight: normal;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 0 2px 2px rgba(45, 45, 45, 0.5);
+  font-size: 25px;
+  font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.25;
@@ -34,23 +36,23 @@
 
 .servicio{
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  font-family: Raleway;
+  font-family: 'Days One', sans-serif;
   font-size: 65px;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.18;
-  letter-spacing: normal;
+  line-height: 1.28;
+  letter-spacing: -0.8px;
   text-align: left;
   color: #ffffff;
 }
 
 .btn{
-  font-family: Comfortaa;
-  border:100px;
-  color: #ffffff;
-  border-radius: 5px;
-  background-color: #25a899; 
+  font-family: 'Quicksand', sans-serif;
+  color: #563eb3;
+  font-size: 25px;
+  border-radius: 40px;
+  background-color: #ffbd41;
 }
 
 .btn-nosotros{
@@ -64,15 +66,15 @@
 }
 
 .mas1 {
-  font-family: Comfortaa;
+  font-family: 'Quicksand', sans-serif;
   font-size: 21px;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.14;
+  line-height: 1.25;
   letter-spacing: normal;
-  text-align: center;
-  color: #25a899;
+  text-align: right;
+  color: #ffbd41;
 }
 
 
@@ -96,8 +98,7 @@
 
 .contenedor>.row{
   padding: 50px;
-  background-image: linear-gradient(to bottom, #47f5e0, #3ce7e2 62%, #31d9e5);
-  
+  background-image: linear-gradient(to bottom, #1949a7, #1949a7 49%, rgba(53, 0, 122, 0.84));
 }
 
 @media only screen and (min-width: 576px) {
