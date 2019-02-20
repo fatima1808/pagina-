@@ -1,5 +1,5 @@
 body{
-background-image: linear-gradient( #4fecdb, #1fc6b4);
+background-image:linear-gradient(to bottom, #1949a7, #1949a7 49%, rgba(53, 0, 122, 0.84));
 }
 
 
@@ -9,10 +9,9 @@ background-image: linear-gradient( #4fecdb, #1fc6b4);
 }
 
 h2{
-font-family: Righteous;
+font-family:'Days One'Regular;
 color: #ffffff;
-font-size: 80px;
-opacity: 0.6;
+font-size: 75px;
 text-align: center;
 }
 
@@ -29,13 +28,13 @@ margin: auto;
 .btn{
   display: block;
   margin:auto;
-  font-family: Comfortaa;
-  border:20px;
-  color: #ffffff;
-  width: 135px;
-  height: 35px;
-  border-radius: 4px;
-  background-color: #25a899;
+  font-family: 'Quicksand'Medium;
+  font-size: 20px;
+  color: #563eb3;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ffbd41;
   position:relative;
   top:5%;
 }
@@ -49,7 +48,7 @@ margin: auto;
 	color: #ffffff;
 	font-size: 40px;
 	line-height: 40px;
-	font-family: comfortaa;
+	font-family: 'Quicksand'Medium;
 	position: relative;
 	top: 1;
 	right: 0;

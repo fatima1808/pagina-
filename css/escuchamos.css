@@ -7,8 +7,10 @@
 .titulo{
   display: block;
   margin: auto;
-  font-family: Montserrat;
-  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0.4px;
+  font-family:'Days One'Regular;
+  font-size: 40px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -24,17 +26,23 @@
   margin: auto;
   color: #ffffff;
   letter-spacing: 0.2px;
-  font-family:comfortaa;
-  font-size: 15px;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+  font-family:'Quicksand'Medium;
+  font-size: 20px;
   }
 
 
 .btn{
-  font-family:Comfortaa;
+  font-family:'Quicksand'Medium;
+  font-size: 20px;
+  margin-right: 50px;
+  width: 180px;
+  height: 40px;
   border:20px;
-  color: #ffffff;
-  border-radius: 4px;
-  background-color: #25a899;
+  color:#563eb3;
+  border-radius: 20px;
+  background-color:#ffbd41;
 }
 
 .btn-flex{
