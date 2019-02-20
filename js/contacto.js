@@ -117,11 +117,11 @@ $("#map").click(function (event) {
 
 $("#map-trigger").hover(
 	function (event) {
-		$("#map").css({"background-image":"url(img/Mapa1920_1080Red.svg"});
+		$("#map").css({"background-image":"url(img/Mapa1920_1080Hover.svg"});
 	},
 
 	function (event) {
-		$("#map").css({"background-image":"url(img/Mapa1920_1080Hover.svg"});
+		$("#map").css({"background-image":"url(img/Mapa1920_1080Red.svg"});
 	});
 
 
