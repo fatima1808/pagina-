@@ -27,7 +27,7 @@ soluciones.ready(function () {
 
 $("body").ready(function () {
 	window.setTimeout(function () {
-		window.location.replace("./home.html");
+		window.location.replace("../paginas/home.html");
 	}, tiempoanimacion);
 });
 

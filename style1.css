@@ -6,7 +6,7 @@
 
 
 body{
-	background-image: linear-gradient(to bottom, #47f5e0, #3ce7e2 62%, #31d9e5);
+	background-image: linear-gradient(to bottom, #1949a7, #1949a7 49%, rgba(53, 0, 122, 0.84));
 	background-repeat: no-repeat;
 	}
 
@@ -163,10 +163,11 @@ animation-fill-mode: forwards;
 
 #slogan{
 	opacity: 0;
-	font-family: Montserrat;
+	font-family: 'Quicksand', sans-serif;
 	position: center;
 	font-size: 850px;
-	line-height: 1.20;
+	font-weight: 500;
+	line-height: 1.25;
 	color: white;
 	transition: 1000ms ease-in-out;
 }

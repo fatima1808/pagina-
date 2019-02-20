@@ -3,45 +3,52 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Contacto</title>
 	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Days+One|Quicksand" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/principal.css">
 	<link rel="stylesheet" href="./css/estiloContacto.css">
+
+
 </head>
 
 <body>
 
-
-
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
 		<a class="nav-link" href="index.html"><img class="logo" src="img/RED.svg" /></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-		 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item ">
+				<li class="nav-item">
 					<a class="nav-link" href="home.html">Home</a>
 				</li>
-				<li class="nav-item active">
+				<li class="nav-item ">
 					<a class="nav-link" href="nosotros.html">Nosotros</a>
 				</li>
-				<li class="nav-item ">
+				<li class="nav-item">
 					<a class="nav-link" href="servicios.html">Servicios</a>
 				</li>
-				<li class="nav-item ">
+				<li class="nav-item active">
 					<a class="nav-link" href="contacto.html">Contacto</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#http://red-point.blog">Red.blog</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
-
 
 	<form class="container contenedor center column">
 
@@ -56,8 +63,8 @@
 		<div class="row form-width">
 			<div class="col-sm-12">
 				<div class="form-group">
-					<input class="input-contacto" id="nombre-contacto" type="text" onkeypress="return soloLetras(event)" maxlength="50"
-					 required="required" />
+					<input class="input-contacto" id="nombre-contacto" type="text" onkeypress="return soloLetras(event)"
+						maxlength="50" required="required" />
 					<label for="input" class="control-label">Nombre</label>
 					<label for="nombre-contacto" class="error-label"></label>
 				</div>
@@ -76,7 +83,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="row form-width">
 			<div class="col-sm-12">
 				<div class="form-group" class="form-contacto">
@@ -90,19 +96,10 @@
 		<div class="row form-width">
 			<div class="col-sm-12">
 				<div class="form-group" class="form-contacto">
-					<input class="input-contacto numeric-only" id="telefono" type="numeric" required="required" maxlength="15" />
+					<input class="input-contacto numeric-only" id="telefono" type="numeric" required="required"
+						maxlength="15" />
 					<label for="input" class="control-label">Teléfono</label>
 					<label for="telefono" class="error-label"></label>
-				</div>
-			</div>
-		</div>
-
-		<div class="row form-width">
-			<div class="col-sm-12">
-				<div class="form-group" class="form-contacto">
-					<input class="input-contacto" id="correo-contacto" type="correo" required="required" />
-					<label for="input" class="control-label">Correo</label>
-					<label for="correo-contacto" class="error-label"></label>
 				</div>
 			</div>
 		</div>
@@ -111,23 +108,54 @@
 
 			<div class="col-sm-12">
 				<div class="form-group">
-					<button id="btn-enviar" class="waves-effect waves-light btn" type="button">¡Ya quedo!</button>
+					<button type="button" class="waves-effect waves-light btn" id="btn-enviar">¡Ya quedó!</button>
+
+					<!-- Modal de envio -->
+					<div class="modal fade" id="modal-envio" tabindex="-1" role="dialog"
+						aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-body">
+									<img class="palomita" src="img/Check.svg" />
+									<p class="texto-enviado">Tu mensaje ha sido enviado.</p>
+									<p class="texto2">En breve nos comunicaremos contigo.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<!-- Modal de Error -->
+					<div class="modal fade" id="modal-error" tabindex="-1" role="dialog"
+						aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-body">
+									<img class="tache" src="img/Error.svg" />
+									<br>
+									<p class="error">Tu mensaje no fue enviado.</p>
+									<p class="error2"> Intenta nuevamente.</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
+
 		<div class="row">
-			<div class="map-placeholder">
-				&nbsp;
-			</div>
-			<div id="map">
-				&nbsp;
+			<div class="map-placeholder center h-100vh w-100vw">
+				<div id="map-trigger">
+					&nbsp;
+				</div>
+				<div id="map">
+					&nbsp;
+				</div>
 			</div>
 		</div>
 	</form>
 
-
 	<footer class="footer">
-
 		<div class="row">
 			<div class="col-sm-4 center column mb-5">
 				<div class="center">
@@ -152,19 +180,19 @@
 					<a href="home.html">Home</a>
 				</p>
 				<p>
-					<a href="nosotros.html">nosotros</a>
+					<a href="nosotros.html">Nosotros</a>
 				</p>
 
 				<p>
-					<a href="servicios.html">servicios</a>
+					<a href="servicios.html">Servicios</a>
 				</p>
 
 				<p>
-					<a href="contacto.html">contacto</a>
+					<a href="contacto.html">Contacto</a>
 				</p>
 
 				<p>
-					<a href="http://red-point.blog">blog</a>
+					<a href="http://red-point.blog">Red.blog</a>
 				</p>
 
 			</div>
@@ -188,17 +216,20 @@
 					(55) 65 45 1095
 					<div>
 						<span>
-							<a target="_blank" tsyle="text-decoration: none;" href="https://www.facebook.com/RedPointAN/"> <img class="img-redes-sociales"
-								 id="img-facebook" src="img/logoFacebook.png" /></a>
+							<a target="_blank" tsyle="text-decoration: none;"
+								href="https://www.facebook.com/RedPointAN/"> <img class="img-redes-sociales"
+									id="img-facebook" src="img/logoFacebook.png" /></a>
 						</span>
 
 						<span>
-							<a target="_blank" tsyle="text-decoration: none;" href="https://www.linkedin.com/company/red-point-arquitectura-de-negocios/about/">
+							<a target="_blank" tsyle="text-decoration: none;"
+								href="https://www.linkedin.com/company/red-point-arquitectura-de-negocios/about/">
 								<img class="img-redes-sociales" id="img-linked" src="img/logoLinkedin.png" />
 						</span>
 
 						<span>
-							<a target="_blank" tsyle="text-decoration: none;" href="https://twitter.com/search?q=RedPoint_AN&src=typd&lang=es">
+							<a target="_blank" tsyle="text-decoration: none;"
+								href="https://twitter.com/search?q=RedPoint_AN&src=typd&lang=es">
 								<img class="img-redes-sociales" id="img-twitter" src="img/logoTwitter.png" /></a>
 						</span>
 					</div>
@@ -219,8 +250,11 @@
 </body>
 
 <!-- Jquery -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
- crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+	integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+	crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/inputs.js"></script>
 <script src="./js/contacto.js"></script>

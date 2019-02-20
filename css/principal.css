@@ -4,7 +4,7 @@ html{
   min-height: 100%;
 }
 body{
-background-image: linear-gradient(to bottom, #47f5e0, #3ce7e2 62%, #31d9e5);
+  background-image: linear-gradient(to bottom, #1949a7, #1949a7 49%, rgba(53, 0, 122, 0.84));
 background-repeat: no-repeat;
 }
 
@@ -25,13 +25,15 @@ padding-top: 200px;
 .footer {
  background-color: #363839;
  list-style:none;
- padding: 50px;
 }
 
-.logo{
+.logo-nav{
+  display: none;
+}
+
+ .logo{
   height: 4rem;
   max-width: 210px;
-  position:center;
 }
 
 .facebook{
@@ -56,9 +58,18 @@ padding-top: 200px;
 }
 
 .copyright{
-background-color: #282a2b;
-color: #ffffff;
-
+  background-color: #282a2b;
+  font-family: Montserrat;
+  font-size: 12px;
+  height: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #868b8b;
+  padding: 20px;
 }
 
 .center{
@@ -69,6 +80,9 @@ color: #ffffff;
 
 .center-text{
 text-align: center;
+font-family: Quicksand;
+font-size: 18px;
+color: #ffffff;
 }
 
 .navbar-custom{
@@ -77,7 +91,8 @@ text-align: center;
   max-width: 100%;
   color:white!important;
   background-color: transparent !important;
-  padding: 30px 103px;
+  padding: 30px 103px; 
+  padding-left: 12px;
    transition: 300ms ease-in-out;
    z-index: 1;
 }
@@ -91,7 +106,7 @@ text-align: center;
 }
 
 .navbar-custom > .navbar-collapse > .navbar-nav > .nav-item.active > .nav-link{
-  color:#25a899!important;
+  color:#ffbd41!important;
   background-color: transparent !important;
 }
 
@@ -105,14 +120,17 @@ text-align: center;
 
 
 .navbar-custom *{
-  color: white;
-  font-family: 'Comfortaa', cursive;
+  color:#25a899;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
 }
-
 
 a{
   color: white;
+  font-size: 18px;
+  font-family: Quicksand;
 }
+
 
 p{
   color: #ffffff;
@@ -122,15 +140,15 @@ p{
   width: 70px;
 }
 
-.texto1{
-  font-family: Comfortaa;
-  font-size: 15px;
+.texto-Contacto{
+  font-family: 'Days One', sans-serif;
+  font-size: 16px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.15;
+  line-height: 1.25;
   letter-spacing: normal;
-  
+  text-align: left;
   color: #ffffff;
 }
 
@@ -139,7 +157,9 @@ width: 30px;
 }
 
 .texto1-opacidad{
-  opacity: 0.6;
+  color: #868b8b;
+  text-align: left;
+  font-family: Quicksand;
 }
 
 .inline{
@@ -177,7 +197,34 @@ flex-direction: column;
   max-height: 100%;
 }
 
+.w-100vw{
+  width: 100vw;
+  max-width: 100%;
+}
+
 .invisible{
   opacity: 0;
 }
 
+@media only screen and (min-width: 576px){
+  .copyright{
+  background-color: #282a2b;
+  font-family: Quicksand;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  color: #868b8b;
+  }
+
+
+  .logo-nav{
+    display: block;
+  }
+  .navbar-custom{
+    padding: 30px 103px;
+  }
+}
