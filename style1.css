@@ -1,13 +1,3 @@
-.contenedor-particulas{
-	width: 80%;
-	height: 1000vh;
-	position: fixed;
-}
-#particles-js { 
-
-}
-
-
 *not(button, input){
 	margin: 0;
 	padding: 0;
@@ -16,7 +6,7 @@
 
 
 body{
-	background-image: linear-gradient(to bottom, #47f5e0, #3ce7e2 62%, #31d9e5);
+	background-image: linear-gradient(to bottom, #1949a7, #1949a7 49%, rgba(53, 0, 122, 0.84));
 	background-repeat: no-repeat;
 	}
 
@@ -49,20 +39,6 @@ animation-fill-mode: forwards;
 	
 }
 
-#letra-R{
-
-
-}
-
-#letra-e{
-
-
-}
-
-#letra-d{
-
-
-}
 
 
 .container-R{
@@ -168,26 +144,65 @@ animation-fill-mode: forwards;
 	}
 }
 
-#slogan{
-	width: 1000px;
-	height: 56px;
+#soluciones{
+	color: #FFFFFF;
+	font-size: 25px;
+	font-family: Montserrat;
 	opacity: 0;
+	margin-top: 170px;
+}
+
+.soluciones-tecologicas{
+	position: absolute;
+	width: 100vw;
+	max-width: 100%;
+	height: 100vh;
+	max-height: 100%;
+	top: 0;
+}
+
+#slogan{
+	opacity: 0;
+	font-family: 'Quicksand', sans-serif;
 	position: center;
-	font-size: 280%;
-	line-height: 1.20;
+	font-size: 850px;
+	font-weight: 500;
+	line-height: 1.25;
 	color: white;
+	transition: 1000ms ease-in-out;
 }
 
 .showing{
-	animation: showing 350ms ease-in-out;
-	animation-fill-mode: forwards;
+	opacity: 1 !important;
 }
 
-@keyframes showing{
-	from{
-		opacity: 0;
-	}
-	to{
-		opacity: 1;
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .columna{
+	display: flex;
+	flex-direction: column;
+  }
+  
+
+.contenedor-slogan{
+	position: fixed;
+    top: 0;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	text-align: center;	
+}
+
+@media only screen and (min-width: 576px){
+	#slogan{
+		font-size: 60px;
 	}
 }

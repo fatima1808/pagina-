@@ -224,7 +224,7 @@ flex-direction: column;
 
 @media only screen and (min-width: 576px){
   .copyright{
-    background-color: #282a2b;
+  background-color: #282a2b;
   font-family: Quicksand;
   font-size: 15px;
   font-weight: normal;
