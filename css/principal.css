@@ -15,6 +15,8 @@ background-repeat: no-repeat;
   overflow: hidden;;
 }
 
+/*Estilos agregados 21/02/2019*/
+
 
 .contenedor{
 max-width: 1300px;
@@ -160,15 +162,26 @@ div#navbarSupportedContent.show {
 .fb-ic{
   color: #ffffff;
 }
+.fb-ic:hover{
+  color: #ffbd41;
+}
+
+.li-ic:hover{
+  color: #ffbd41;
+}
+
 
 .li-ic{
   color: #ffffff;
 }
 
+
 .tw-ic{
   color: #ffffff;
 }
-
+.tw-ic:hover{
+  color: #ffbd41;
+}
 
 .img-logos{
   width: 70px;
@@ -282,5 +295,9 @@ flex-direction: column;
   .lista{
     color:#ffffff;
     opacity: 1;
+  }
+  .lista:hover{
+    color:#ffbd41;
+    text-decoration: none;
   }
 }
