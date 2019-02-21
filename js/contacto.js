@@ -67,6 +67,7 @@ $("#btn-enviar").click(function (event) {
 function isEmpty(id) {
 	var dato = $("#" + id).val();
 	if (dato === "") {
+		$("#" + id).focus();
 		$("#" + id).addClass("error-input");
 		$("label[for='" + id + "']").html("<i class=\"fas fa-exclamation-triangle\"></i> &nbsp; El campo no puede estar vacio");
 		return true;
