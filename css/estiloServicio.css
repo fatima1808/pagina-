@@ -1,92 +1,58 @@
-<<<<<<< Updated upstream
-.titulo{
-  font-family: Montserrat;
-  font-size: 35px;
-=======
 .titulo-bloques{
-  font-family: Montserrat;
+  font-family: 'Days One', sans-serif;
+  text-shadow: 0 2px 2px rgba(45, 45, 45, 0.5);
   font-size: 40px;
->>>>>>> Stashed changes
-  font-weight: 600;
+  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.23;
-  letter-spacing: normal;
+  line-height: 1.13;
+  letter-spacing: 0.4px;
   text-align: center;
   color: #ffffff;
 }
 
-.logo{
-  width: 370px;
-  height: 100px;
-  position:center;
-}
-
 .contenedor{
       max-width: 1300px;
-      padding: 10px
+      padding: 0;
+      padding-top: 200px;
 }
 
 
 .img-columna{
-    height: 350px;
+  height: 30vh;
 }
 
-<<<<<<< Updated upstream
-
-.parrafo{
-=======
 .parrafo-bloques{
->>>>>>> Stashed changes
-  font-family: Montserrat;
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.2;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
-}
-
-
-.img-personal{
-  width: 250px;
-  height: 413px;
-}
-
-
-.servicio{
-  opacity: 0.6;
-  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-<<<<<<< Updated upstream
-  font-family: 'Raleway', sans-serif;
-  font-size: 88px;
-  font-weight: normal;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 0 2px 2px rgba(45, 45, 45, 0.5);
+  font-size: 25px;
+  font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.25;
-  letter-spacing: normal;
-  text-align: right;
-=======
-  font-family: Raleway;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.servicio{
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: 'Days One', sans-serif;
   font-size: 65px;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.18;
-  letter-spacing: normal;
+  line-height: 1.28;
+  letter-spacing: -0.8px;
   text-align: left;
->>>>>>> Stashed changes
   color: #ffffff;
 }
 
 .btn{
-  font-family: Comfortaa;
-  border:100px;
-  color: #ffffff;
-  border-radius: 5px;
-  background-color: #25a899; 
+  font-family: 'Quicksand', sans-serif;
+  color: #563eb3;
+  font-size: 25px;
+  border-radius: 40px;
+  background-color: #ffbd41;
 }
 
 .btn-nosotros{
@@ -95,37 +61,22 @@
 }
 
 .iconoMas{
-   width: 100px;
+   width: 50px;
   height: 25px;
 }
 
 .mas1 {
-  font-family: Comfortaa;
-<<<<<<< Updated upstream
-  font-size: 20px;
-  font-weight: 1000;
-  line-height: 1.15;
-  text-align:  center;
-=======
+  font-family: 'Quicksand', sans-serif;
   font-size: 21px;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.14;
+  line-height: 1.25;
   letter-spacing: normal;
-  text-align: center;
->>>>>>> Stashed changes
-  color: #25a899;
+  text-align: right;
+  color: #ffbd41;
 }
 
-.mas2 {
-  font-family: Comfortaa;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 1.15;
-  text-align:  right;
-  color: #25a899;
-}
 
 
 .mas{
@@ -149,8 +100,7 @@
 
 .contenedor>.row{
   padding: 50px;
-  background-image: linear-gradient(to bottom, #47f5e0, #3ce7e2 62%, #31d9e5);
-  
+  background-image: linear-gradient(to bottom, #1949a7, #1949a7 49%, rgba(53, 0, 122, 0.84));
 }
 
 @media only screen and (min-width: 576px) {
@@ -169,4 +119,3 @@
     font-size: 80px;
   }
 }
->>>>>>> Stashed changes
