@@ -1,5 +1,20 @@
+<<<<<<< Updated upstream
 .imagen{
  height: 360px;
+=======
+body{
+ background-image: linear-gradient(to bottom, #47f5e0, #3ce7e2 62%, #31d9e5);
+}
+
+
+.contenedor{
+  max-width: 1100px;
+  height:657px;
+}       
+
+.imagen{
+ height: 391px;
+>>>>>>> Stashed changes
  display: block;
  margin: auto;
 }
@@ -49,3 +64,15 @@
 display: flex;
 justify-content: flex-end;
 }
+<<<<<<< Updated upstream
+=======
+
+
+
+
+@media screen and (min-width: 241px;){
+  body{
+     background:#ff8000;
+  }
+}
+>>>>>>> Stashed changes

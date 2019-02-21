@@ -11,10 +11,17 @@ red.ready(function(){
 });
 
 
+<<<<<<< Updated upstream
 slogan.ready(function(){
 	window.setTimeout(function(){
 		slogan.addClass("showing");
 	},tiempo);
+=======
+$("body").ready(function () {
+	window.setTimeout(function () {
+		window.location.replace("./home.html");
+	}, tiempoanimacion);
+>>>>>>> Stashed changes
 });
 
 $("body").ready(function(){

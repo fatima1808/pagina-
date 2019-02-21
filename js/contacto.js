@@ -1,4 +1,3 @@
-
 $("body").ready(function (event) {
 	var url_string = window.location.href;
 	var url = new URL(url_string);
@@ -6,11 +5,14 @@ $("body").ready(function (event) {
 	$("#opciones").val(tipo);
 });
 
+
+
+
 $("#btn-enviar").click(function (event) {
 	var nombre = $("#nombre-contacto").val();
 	var telefono = $("#telefono").val();
 	var email = $("#correo-contacto").val();
-	var tipo = $("#opciones").val();
+	var tipo = $("#opciones").val(); 
 
 	limpiarErrores("nombre-contacto");
 	limpiarErrores("telefono");
@@ -37,38 +39,31 @@ $("#btn-enviar").click(function (event) {
 		return false;
 	}
 
-
-
 	var datos = {
 		"nombre": nombre,
-		"telefono": telefono,
+		"telefono": telefono, 
 		"email": email,
 		"tipo": tipo,
 
 	};
-
 	$.ajax({
 		url: "192.168.0.20/test.php",
 		method: "POST",
-		data: datos,
+		data:datos, 
 		success: function (response) {
 			console.log(response.statusMessage);
-			$("#modal-envio").modal("show");
 		},
 		error: function (err) {
 			console.error(err);
-			$("#modal-error").modal("show");
 		}
-
 	})
-
 });
 
 function isEmpty(id) {
 	var dato = $("#" + id).val();
 	if (dato === "") {
 		$("#" + id).addClass("error-input");
-		$("label[for='" + id + "']").html("<i class=\"fas fa-exclamation-triangle\"></i> &nbsp; El campo no puede estar vacio");
+		$("label[for='" + id + "']").text("El campo no puede estar vacio");
 		return true;
 	}
 
@@ -77,7 +72,7 @@ function isEmpty(id) {
 
 function limpiarErrores(id) {
 	$("#" + id).removeClass("error-input");
-	$("label[for='" + id + "']").html("");
+	$("label[for='" + id + "']").text("");
 }
 
 
@@ -86,13 +81,14 @@ function isEmail(id) {
 	var dato = $("#" + id).val();
 	if (!emailRegex.test(dato)) {
 		$("#" + id).addClass("error-input");
-		$("label[for='" + id + "']").html("<i class=\"fas fa-exclamation-triangle\"></i> &nbsp; Formato no válido");
+		$("label[for='" + id + "']").text("Formato no válido");
 		return false;
 	}
 	return true;
 }
 
 
+<<<<<<< Updated upstream
 $('#modal-envio').on('shown.bs.modal', function () {
 	setTimeout(function () {
 		$('#modal-envio').modal("hide");
@@ -130,5 +126,7 @@ $("#map-trigger").hover(
 
 
 
+=======
+>>>>>>> Stashed changes
 
 

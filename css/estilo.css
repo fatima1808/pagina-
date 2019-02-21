@@ -1,6 +1,12 @@
 
+<<<<<<< Updated upstream
 .titulo{
   font-family: 'Raleway';
+=======
+#titulo{
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: Raleway;
+>>>>>>> Stashed changes
   font-size: 50px;
   font-weight: bold;
   font-style: normal;
@@ -13,6 +19,7 @@
 
 .parrafo{
   font-family: 'Montserrat';
+<<<<<<< Updated upstream
   font-size: 40px;
   font-weight: normal;
   font-style: normal;
@@ -34,12 +41,23 @@
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
+=======
+    font-size: 26px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+>>>>>>> Stashed changes
 }
 
 .img-oficina{
   height: 466px;
 }
 
+<<<<<<< Updated upstream
 .img-columna{
 width: 250px;
 }
@@ -68,11 +86,50 @@ h2{
   font-style: normal;
   font-stretch: normal;
   line-height: 1.12;
+=======
+.texto{
+  font-family: Comfortaa;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+
+
+#como-lo-hacemos{
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.18;
+>>>>>>> Stashed changes
   letter-spacing: normal;
   color: #ffffff;
 }
 
 
+<<<<<<< Updated upstream
+=======
+.linea{
+  font-family: Comfortaa;
+  font-size: 43px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.12;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+
+>>>>>>> Stashed changes
 button{
   font-family: Comfortaa;
   left: 200px;
@@ -130,9 +187,34 @@ button{
   font-size: 35px;
 }
 
+<<<<<<< Updated upstream
 @media only screen and (min-width: 560px) {
   #como-lo-hacemos{
   font-size: 80px;
 
 }
 } 
+=======
+
+@media only screen and  (min-width: 576px){
+  
+  .parrafo{
+    font-size: 40px;
+    text-align: left;
+  }
+  .img-soluciones{
+    min-width: 300px;
+    max-width: 450px;
+  }
+  .mas{
+    font-size: 20px;
+  }
+  #como-lo-hacemos{
+    font-size: 80px;
+  }
+  #titulo{
+    font-size: 70px;
+    text-align: left;
+  }
+}
+>>>>>>> Stashed changes
