@@ -3,6 +3,7 @@
 html{
   min-height: 100%;
 }
+
 body{
   background-image: linear-gradient(to bottom, #1949a7, #1949a7 49%, rgba(53, 0, 122, 0.84));
 background-repeat: no-repeat;
@@ -156,6 +157,10 @@ div#navbarSupportedContent.show {
   
 }
 
+
+.lista:hover{
+color: #ffbd41;
+}
 .fb-ic{
   color: #ffffff;
 }
