@@ -146,17 +146,28 @@ div#navbarSupportedContent.show {
   height: 100vh;
 }
 
-a{
-  color: white;
+
+
+.lista{
+  color:#ffffff;
   font-size: 18px;
-  font-family: Quicksand;
+  font-family: Quicksand; 
+  opacity: 0;
+  
 }
 
-
-
-p{
+.fb-ic{
   color: #ffffff;
 }
+
+.li-ic{
+  color: #ffffff;
+}
+
+.tw-ic{
+  color: #ffffff;
+}
+
 
 .img-logos{
   width: 70px;
@@ -179,9 +190,27 @@ width: 30px;
 }
 
 .texto1-opacidad{
-  color: #868b8b;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
   text-align: left;
-  font-family: Quicksand;
+  color: #868b8b;
+}
+
+.texto1{
+  font-family: 'Days One', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
 }
 
 .inline{
@@ -241,8 +270,11 @@ flex-direction: column;
   }
   .navbar-custom{
     width: 100vw;
-  max-width: 100%;
+     max-width: 100%;
     padding: 30px 103px;
   }
- 
+  .lista{
+    color:#ffffff;
+    opacity: 1;
+  }
 }
