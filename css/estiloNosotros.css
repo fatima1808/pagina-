@@ -350,6 +350,22 @@
 }
 
 
+#contenedor-img-4{
+  left: 0;
+  z-index: -40;
+ 
+}
+
+#img-4 {
+  height: 75%;
+  display: block;
+  position: absolute;
+  opacity: 0.4;
+  z-index: -40;
+}
+
+
+
 .flex-column{
   display: flex;
   flex-direction: column;
@@ -495,6 +511,18 @@
   font-family: 'Days One', sans-serif;
   font-size: 70px;
 }
+
+.img-class {
+  position: absolute;
+  height: 75%;
+  transition: opacity 300ms ease-in-out;
+}
+
+#img-4 {
+ opacity: 0;
+ display: none;
+}
+
 .texto{
   font-size: 25px;
 }
