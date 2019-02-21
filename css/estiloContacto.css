@@ -225,7 +225,11 @@ padding-top: 1px;
     max-height: 1920px;
     background-image: url(../img/Mapas/Mapa1920_1080Red.svg);
   }
+
 }
+
+
+
 
 
 /* MODAL DE ENVIO*/
@@ -289,3 +293,5 @@ padding-top: 1px;
 .align-items-center{
   text-decoration: none;
 }
+
+

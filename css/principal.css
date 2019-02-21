@@ -69,8 +69,9 @@ padding-top: 200px;
   letter-spacing: normal;
   text-align: center;
   color: #868b8b;
-  padding: 23px;
+  padding: 20px;
 }
+
 
 .center{
   display: flex;
@@ -204,8 +205,8 @@ flex-direction: column;
 
 @media only screen and (min-width: 576px){
   .copyright{
-    background-color: #282a2b;
-    font-family: Quicksand;
+  background-color: #282a2b;
+  font-family: Quicksand;
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
@@ -215,7 +216,6 @@ flex-direction: column;
   text-align: center;
   color: #868b8b;
   }
-
 
   .logo-nav{
     display: block;
