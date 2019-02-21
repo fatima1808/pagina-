@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>RedPoint</title>
+	<link rel="shortcut icon" href="../img/Red.png">
+	<link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+		integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/estiloNosotros.css">
+	<link rel="stylesheet" href="../css/principal.css">
+</head>
+
+
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+		<a class="nav-link logo-nav" href="../index.html"><img class="logo" src="../img/home/RED.svg" /></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+			<span>  <i class="fas fa-bars"></i> <a>Nosotros</a></span>
+			
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item ">
+					<a class="nav-link" href="../paginas/home.html">Home</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="../paginas/nosotros.html">Nosotros</a>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" href="../paginas/servicios.html">Servicios</a>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" href="../http://red-point.blog">Red.blog</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="canv-container">
+		<div id="header"><canvas id="header-canvas"></canvas></div>
+	</div>
+	
+
+	<div class="container contenedor">
+
+		<div class="row">
+			<div class="col-sm-12 columna center my-5">
+				<h1 class="titulo">nosotros</h1>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-sm-6 center">
+				<div class="row">
+					<img class="img-equipo" src="../img/nosotros/fabrica-de-software.gif">
+				</div>
+			</div>
+
+			<div class="col-sm-6 mt-5">
+				<div class="container">
+					<div class="row">
+						<p class="parrafo">
+							Red Point es una empresa de
+							desarrollo e innovación
+							tecnológica ubicada en la CDMX;
+							nació con el objetivo de ayudar a
+							las empresas mexicanas a
+							optimizar sus procesos del negocio
+							por medio de la implementación
+							de la arquitectura de negocios.
+							<br>
+							<br>
+							Con el paso del tiempo la
+							tecnología ha marcado una
+							dirección difícil de ignorar; es así
+							como Red Point se suma desde
+							hace 14 años a la vanguardia de la
+							tecnológica teniendo presente que
+							una mejora en los procesos es
+							clave para brindar soluciones
+							empresariales completas.
+						</p>
+					</div>
+
+					<div class="row">
+						<div class="col-sm-12 btn-servicios center mt-3">
+							<div class="form-group">
+								<a href="../servicios.html" class="waves-effect waves-light btn">Servicios</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+		<div class="row">
+			<div class="col-sm-12 my-5">
+				<h1 class="filosofia">nuestra filosofia</h1>
+				<p class="trabajo my-5">Hacer bien nuestro trabajo. </p>
+				<p class="tenemos my-5">Tenemos muy presente que el triunfo de tus proyectos es el triunfo de los
+					nuestros. </p>
+			</div>
+		</div>
+
+
+		<div class="row ">
+			<div class="col-sm-4 my-5">
+				<div class="container">
+					<div class="row center">
+						<span class="flip-number" data-num="1"></span>
+						<span class="flip-number" data-num="4"></span>
+					</div>
+
+					<div class="row">
+						<p class="texto"> años trabajando
+							buscando la excelencia.</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-sm-4  my-5">
+				<div class="container">
+					<div class="row center">
+						<span class="flip-number" data-num="5"></span>
+						<span class="flip-number" data-num="5"></span>
+					</div>
+
+					<div class="row">
+						<p class="texto">personas integran el
+							equipo de consultores,
+							desarrolladores de
+							software y diseñadores</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-sm-4 my-5">
+				<div class="container">
+					<div class="row center">
+						<span class="flip-number" data-num="3"></span>
+						<span class="flip-number" data-num="5"></span>
+					</div>
+
+					<div class="row">
+						<p class="texto">Casos de éxito con clientes satisfechos</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+
+		<div class="row ">
+			<div class="col-sm-12 my-5">
+				<h1 class="talento my-5">apoyamos el talento</h1>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="carusel-dummy">&nbsp;</div>
+			<div id="carouselExampleControls" class="carousel slide  carrusel-custom" data-ride="carousel">
+				<div class="carousel-inner">
+
+					<div class="carousel-item active">
+						<div class="d-block w-100  carrusel-items "
+							style="background-image:url(../img/nosotros/Horizonte1.jpg);" alt="First slide">
+							<div class="container h-100">
+								<div class="row h-100">
+									<div class="col-sm-6">
+									</div>
+									<div class="col-sm-6 carrusel-contenido h-100 py-5">
+										<div class="pt-5">
+											<h3 class="texto-foto">Sabemos de que hablamos</h3>
+										</div>
+										<div class="col-sm-12 btn-intgrate center mt-3">
+											<div class="form-group align-left">
+												<a href="../contacto.html?tipo=2"
+													class="waves-effect waves-light btn">Intégrate a nuestro equipo</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="carousel-item">
+						<div class="d-block w-100 carrusel-items "
+							style="background-image:url(../img/nosotros/horizonte.jpg);" alt="First slide">
+							<div class="container h-100">
+								<div class="row h-100">
+									<div class="col-sm-6">
+									</div>
+									<div class="col-sm-6 carrusel-contenido h-100 py-5">
+										<div class="pt-5">
+											<h3 class="texto-foto">Creemos en el valor de las personas.</h3>
+										</div>
+										<div class="col-sm-12 btn-intgrate center mt-3">
+											<div class="form-group align-left">
+												<a href="../contacto.html?tipo=2"
+													class="waves-effect waves-light btn">Intégrate a nuestro equipo</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="carousel-item">
+						<div class="d-block w-100 carrusel-items"
+							style="background-image:url(../img/nosotros/paisaje.jpg);" alt="First slide">
+							<div class="container h-100">
+								<div class="row h-100">
+									<div class="col-sm-6">
+									</div>
+									<div class="col-sm-6 carrusel-contenido h-100 py-5">
+										<div class="pt-5">
+											<h3 class="texto-foto">Somos entusiastas y comprometidos.</h3>
+										</div>
+										<div class="col-sm-12 btn-intgrate center mt-3">
+											<div class="form-group align-left">
+												<a href="../contacto.html?tipo=2"
+													class="waves-effect waves-light btn">Intégrate a nuestro equipo</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<div class="d-block w-100 carrusel-items "
+							style="background-image:url(../img/nosotros/atardecer.jpg);" alt="First slide">
+							<div class="container h-100">
+								<div class="row h-100">
+									<div class="col-sm-6">
+									</div>
+									<div class="col-sm-6 carrusel-contenido h-100 py-5">
+										<div class="pt-5">
+											<h3 class="texto-foto">Nuestra juventud y experiencia trabajan para alcanzar
+												el éxito.</h3>
+										</div>
+										<div class="col-sm-12 btn-intgrate center mt-3">
+											<div class="form-group align-left">
+												<a href="../contacto.html?tipo=2"
+													class="waves-effect waves-light btn">Intégrate a nuestro equipo</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<div class="d-block w-100 carrusel-items"
+							style="background-image:url(../img/nosotros/playa.jpg);" alt="First slide">
+							<div class="container h-100">
+								<div class="row h-100">
+									<div class="col-sm-6">
+									</div>
+									<div class="col-sm-6 carrusel-contenido h-100 py-5">
+										<div class="pt-5">
+											<h3 class="texto-foto">Somos entusiastas y comprometidos.</h3>
+										</div>
+										<div class="col-sm-12 btn-intgrate center mt-3">
+											<div class="form-group align-left">
+												<a href="../contacto.html?tipo=2"
+													class="waves-effect waves-light btn">Intégrate a nuestro equipo</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+				<div style="text-align:center" class="mt-3">
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+				</div>
+			</div>
+
+		</div>
+
+
+		<div id="contenedor-paralax" class="contenedor container">
+			<div class="img-container-left img-container h-100vh center">
+				<img src="../img/TrabajoEquipo_Izquierda.svg" id="img-left-1" class="img-class img-left" />
+				&nbsp;
+			</div>
+			<div class="img-container-right img-container h-100vh center">
+				<img src="../img/TrabajoEquipo_Derecha.svg" id="img-right-1" class="img-class img-right">
+				&nbsp;
+			</div>
+
+			<div id="text-block-1" class="row h-100vh center">
+				<h1 class="texto-block-1">ambicionamos</h1>
+			</div>
+			<div id="text-block-2" class="row h-100vh center">
+				<h1 class="text-bloc-2">Apuntamos a ser una empresa reconocida no sólo por la calidad de nuestros
+					productos,
+					sino por
+					nuestra forma de trabajar dinámica e innovadora que se adapta fácilmente a los cambios
+					generacionales.
+					Es por eso
+					que implementamos en nuestra dinámica diaria:</h1>
+			</div>
+
+			<div id="text-block-3" class="row">
+
+				<div class="h-100vh w-100vw center">
+					<h1 class="m-agiles">Metodologías ágiles</h1>
+				</div>
+				<div class="center">
+					<h1 class="pensamientos">Pensamiento orientado al usuario</h1>
+				</div>
+				<div class="h-100vh w-100vw center">
+					<h1 class="ambiente">Ambiente de trabajo positivo</h1>
+				</div>
+				<div class="h-100vh w-100vw center">
+					&nbsp;
+				</div>
+			</div>
+			<div id="contenedor-img-3" class="center h-100vh w-100vw position-absolute">
+				<img src="../img/TrabajoEquipo_Centro.svg" id="img-left-3" class="img-class" />
+			</div>
+
+
+		</div>
+
+
+		<div class="row ">
+			<div class="col-sm-12 ">
+				<h2 class="linea">nos sentimos orgullosos</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12 mt-4">
+				<p class="equipo"> La mejora continua de nuestro equipo es fundamental para generar calidad en los
+					servicios
+					que ofrecemos. Contamos con personas de gran experiencia y conocimientos adquiridos a
+					lo largo de su carrera profesional, con certificados en:
+				</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="container">
+					<div class="row center">
+						<div class="col-sm-4 center">
+							<img class="certificado lazy" data-src="../img/nosotros/certificacion-scrum.svg" />
+						</div>
+						<div class="col-sm-4 center">
+							<img class="certificado lazy" data-src="../img/nosotros/certificacion-java.svg" />
+						</div>
+						<div class="col-sm-4 center">
+							<img class="certificado lazy" data-src="../img/nosotros/certificacion-git.svg" />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-12">
+				<div class="container">
+					<div class="row center">
+						<div class="col-sm-4 center">
+							<img class="certificado lazy" data-src="../img/nosotros/certificacion-iso.svg" />
+						</div>
+						<div class="col-sm-4 center">
+							<img class="certificado lazy" data-src="../img/nosotros/certificacion-sap.svg" />
+						</div>
+						<div class="col-sm-4 center">
+							<img class="certificado lazy" data-src="../img/nosotros/certificacion-six-sigma.svg" />
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="container p-5">
+			<div class="row">
+				<div class="col-sm-4 center column mb-5">
+					<div class="center">
+						<img class="logo" src="../img/home/RED.svg" />
+					</div>
+					<br>
+					<p class="center-text">Conócelos</p>
+					<div class="center">
+
+						<a target="_blank" href="http://ec2-54-245-70-37.us-west-2.compute.amazonaws.com:3000/">
+							<img class="  img-logos" id="img-sophy" alt="Logo Sophy" src="../img/home/logoSophy-01.svg">
+						</a>
+						<a data-toggle="modal" data-target="#toma-turno-video">
+							<img class="img-logos" id="img-toma-turno" alt="Toma Turno"
+								src="../img/home/logoTomaTurno_Mesa de trabajo 1.svg">
+						</a>
+					</div>
+
+					<div class="modal fade" id="toma-turno-video" role="dialog">
+						<div class="modal-dialog modal-lg">
+
+
+							<div class="modal-content ">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+								<div class="modal-body">
+									<iframe src="https://www.youtube.com/embed/62iRSXgQo3A?rel=0" width="100%"
+										height="450" allowfullscreen></iframe>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+
+
+				</div>
+
+				<div class="col-sm-4 center column mb-5">
+					<p>
+						<a target="_blank" href="www.red-point.com/home">home</a>
+					</p>
+					<p>
+						<a target="_blank" href="www.red-point.com/nosotros">nosotros</a>
+					</p>
+
+					<p>
+						<a target="_blank" href="www.red-point.com/servicios">servicios</a>
+					</p>
+
+					<p>
+						<a target="_blank" href="www.red-point.com/contacto">contacto</a>
+					</p>
+
+					<p>
+						<a target="_blank" href="http://red-point.blog">Red.blog</a>
+					</p>
+
+				</div>
+
+
+
+				<div class="col-sm-4 center column mb-5" id="columna-contacto">
+
+					<div>
+						<p class="texto-Contacto">Contáctanos</p>
+					</div>
+
+
+					<p class="texto1-opacidad">Av. Insurgentes Sur 1802, 3er Piso. Col.
+						Florida, Delegación Álvaro Obregón,
+						C.P. 01030, México, CDMX.
+						<br>
+						<br>
+
+						contacto@red-point.mx
+						<br>
+						(55) 65 45 1095
+						<div>
+							<a class="fb-ic " target="_blank" href="https://www.facebook.com/RedPointAN/">
+								<i class="fab fa-facebook-f fa-lg white-tex mr-3 fa-2x"> </i>
+							</a>
+
+							<a class="li-ic" target="_blank"
+								href="https://www.linkedin.com/company/red-point-arquitectura-de-negocios/about/">
+								<i class="fab fa-linkedin-in fa-lg white-text  mr-3 fa-2x"> </i>
+							</a>
+
+							<a class="tw-ic" target="_blank" href="https://twitter.com/RedPoint_AN?lang=es">
+								<i class="fab fa-twitter fa-lg white-text  mr-3 fa-2x"> </i>
+							</a>
+						</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="copyright center">
+				<a href="./terminos">Copyright © 2018 by Red Point. Todos los derechos reservados. Aviso de
+					privacidad.</a>
+			</div>
+		</div>
+
+	</footer>
+
+
+
+
+
+</body>
+
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/nosotros.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js"
+	integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7"
+	crossorigin="anonymous"></script>
+<script src="../js/ambicionamos.js"></script>
+<script src="../js/barra.js"></script>
+<script src="../js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../js/mouse-tracker.js"></script>
+
+</html>
