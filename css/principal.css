@@ -97,6 +97,7 @@ color: #ffffff;
   z-index: -50;
 }
 
+
 #header-canvas{
   max-width: 100%;
   position: absolute!important;
@@ -105,7 +106,7 @@ color: #ffffff;
 
 .navbar-custom{
   position: fixed;
-  width: 55.5%;
+  width: 55.5vw;
   max-width: 100%;
   color:white!important;
   background-color: transparent !important;
@@ -134,13 +135,12 @@ color: #ffffff;
 
 .navbar-custom-up{
   transform: translateY(-120vh);
-  
 }
 
 
 .navbar-custom *{
   color:#ffbd41;
-  border: none;
+  border:none;
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
 }
@@ -150,9 +150,30 @@ div#navbarSupportedContent.show {
 }
 
 
-
 .lista{
   color:#ffffff;
+  font-size: 18px;
+  font-family: Quicksand; 
+  opacity: 0;
+  
+}
+
+.fb-ic{
+  color: #ffffff;
+}
+
+.li-ic{
+  color: #ffffff;
+}
+
+.tw-ic{
+  color: #ffffff;
+}
+
+
+
+.a{
+  color: white;
   font-size: 18px;
   font-family: 'Quicksand', sans-serif;
   font-weight: 500;
@@ -164,23 +185,7 @@ div#navbarSupportedContent.show {
   opacity: 0;
 }
 
-.lista:hover { 
-  color:#ffbd41; 
-}
-
-.fb-ic{
-  color: #ffffff;
-}
-.fb-ic:hover{
-  color: #ffbd41;
-}
-
-.li-ic:hover{
-  color: #ffbd41;
-}
-
-
-.li-ic{
+p{
   color: #ffffff;
 }
 
@@ -297,16 +302,13 @@ flex-direction: column;
     display: block;
   }
   .navbar-custom{
-    width: 100vw;
-     max-width: 100%;
+    width: 100VW;
+    max-width: 100%;
     padding: 30px 103px;
   }
+
   .lista{
     color:#ffffff;
     opacity: 1;
-  }
-  .lista:hover{
-    color:#ffbd41;
-    text-decoration: none;
-  }
+}
 }
