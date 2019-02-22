@@ -25,7 +25,7 @@
 .parrafo-bloques{
   font-family: 'Quicksand', sans-serif;
   text-shadow: 0 2px 2px rgba(45, 45, 45, 0.5);
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 500;
   color: #ffffff;
   font-style: normal;
@@ -109,5 +109,9 @@
   }
   .servicio{
     font-size: 80px;
+  }
+  .parrafo-bloques{
+    font-size: 23px;
+    font-weight: 500;
   }
 }
