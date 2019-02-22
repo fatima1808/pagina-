@@ -67,6 +67,7 @@ $("#btn-enviar").click(function (event) {
 function isEmpty(id) {
 	var dato = $("#" + id).val();
 	if (dato === "") {
+		$("#" + id).focus();
 		$("#" + id).addClass("error-input");
 		$("label[for='" + id + "']").html("<i class=\"fas fa-exclamation-triangle\"></i> &nbsp; El campo no puede estar vacio");
 		return true;
@@ -85,6 +86,7 @@ function isEmail(id) {
 	var emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 	var dato = $("#" + id).val();
 	if (!emailRegex.test(dato)) {
+		$("#" + id).focus();
 		$("#" + id).addClass("error-input");
 		$("label[for='" + id + "']").html("<i class=\"fas fa-exclamation-triangle\"></i> &nbsp; Formato no válido");
 		return false;
