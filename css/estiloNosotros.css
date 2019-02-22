@@ -1,7 +1,7 @@
 .titulo{
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
   font-family: 'Days One', sans-serif;
-  font-size: 50px;
+  font-size: 3rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -13,20 +13,20 @@
 
 .parrafo{
   font-family: 'Quicksand', sans-serif;
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.12;
     letter-spacing: 0.2px;
-    text-align: center;
+    text-align: justify;
     color: #ffffff;
 }
 
 
 .texto{ 
   font-family: 'Quicksand', sans-serif;
-  font-size: 25px;
+  font-size: 1.4rem;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -39,7 +39,8 @@
 .filosofia{
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
   font-family: 'Days One', sans-serif;
-  font-size: 45px;
+  font-size: 2.2rem;
+  margin-top: 4.4rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -111,7 +112,7 @@
 
 .trabajo{
   font-family: 'Quicksand', sans-serif;
-  font-size: 37px;
+  font-size: 2rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -124,7 +125,7 @@
 .tenemos{
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
   font-family: 'Quicksand', sans-serif;
-    font-size: 19px;
+    font-size: 1.2rem;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
@@ -137,7 +138,8 @@
 .talento{
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
   font-family: 'Days One', sans-serif;
-  font-size: 40px;
+  font-size: 2.2rem;
+  margin-top: 7rem!important;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -150,7 +152,9 @@
 .equipo{
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
   font-family: 'Quicksand', sans-serif;
-  font-size: 17px;
+  font-size: 1.1rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -182,7 +186,7 @@
 .texto-block-1{
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
   font-family: 'Days One', sans-serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -387,7 +391,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 75vh;
+  height: 56vh;
 }
 
 
@@ -395,7 +399,13 @@
   position: absolute;
   width: 100vw; 
   max-width: 100%;
+  height: 56vh;
   left: 0;
+  top: 0;
+}
+
+.carrusel-item{
+  height: 56vh;
 }
 
 .carusel-dummy{
@@ -404,7 +414,7 @@
 
 .texto-foto{
   font-family: 'Days One', sans-serif;
-  font-size: 50px;
+  font-size: 1.6rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -422,9 +432,9 @@
 
 
 .linea{
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.16));
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
   font-family: 'Days One', sans-serif;
-  font-size: 40px;
+  font-size: 3rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -448,7 +458,7 @@
 
 @media only screen and (min-width: 576px) {
   .linea{
-     font-size: 80px;
+     font-size: 4rem;
      text-align: center;
   }
   .certificado {
@@ -456,24 +466,28 @@
   padding: 17px 58px;
 }
 .titulo{
-  font-size: 90px;
+  font-size: 4rem;
+  text-align: right;
 }
 .img-equipo{
   height: 400px;
 }
+.texto-foto{
+  font-size: 2.4rem;
+}
 .parrafo{
-  font-size: 25px;
-  text-align: left;
+  font-size: 1.2rem;
+  text-align: justify;
 }
 .filosofia{
-  font-size: 70px;
+  font-size: 3.5rem;
 }
 .trabajo{
-  font-size: 45px;
+  font-size: 2.5rem;
   font-weight: 500;
 }
 .tenemos{
-  font-size: 160%;
+  font-size: 1.5rem;
   font-weight: 500;
   text-align:center;
 }
@@ -482,7 +496,7 @@
 }
 .texto-block-1{
   font-family: 'Days One', sans-serif;
-  font-size: 70px;
+  font-size: 3.6rem;
 }
 
 .text-bloc-2{
@@ -519,14 +533,14 @@
 }
 
 .texto{
-  font-size: 25px;
+  font-size: 1.4rem;
   font-weight:bold;
 }
 .talento{
-  font-size: 80px;
+  font-size: 4rem;
 }
 .equipo{
-  font-size: 25px;
+  font-size: 1.5rem;
   text-align: center;
   font-weight: bold;
 }
