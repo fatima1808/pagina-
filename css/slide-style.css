@@ -1,0 +1,45 @@
+﻿.row{ 
+    padding-bottom:5%;
+}
+.slideanim {
+    visibility:hidden;
+    visibility:visible\9;/*For old IE browsers IE6-8 */
+}
+.slideanim.subir.slide {
+    visibility: visible; 
+    animation:subir 1200ms;
+}
+.slideanim.bajar.slide {
+    visibility: visible; 
+    animation:bajar 1200ms;
+}
+.slideanim.show.slide {
+    visibility: visible; 
+    animation:show 1200ms;
+}
+
+@keyframes subir {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+
+@keyframes bajar {
+    0% {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@keyframes show {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+}

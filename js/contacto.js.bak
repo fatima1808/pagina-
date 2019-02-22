@@ -52,11 +52,9 @@ $("#btn-enviar").click(function (event) {
 		data:datos, 
 		success: function (response) {
 			console.log(response.statusMessage);
-			$("#modal-envio").modal("show");
 		},
 		error: function (err) {
 			console.error(err);
-			$("#modal-error").modal("show");
 		}
 	})
 });
@@ -65,7 +63,7 @@ function isEmpty(id) {
 	var dato = $("#" + id).val();
 	if (dato === "") {
 		$("#" + id).addClass("error-input");
-		$("label[for='" + id + "']").html("<i class=\"fas fa-exclamation-triangle\"></i> &nbsp; El campo no puede estar vacio");
+		$("label[for='" + id + "']").text("El campo no puede estar vacio");
 		return true;
 	}
 
@@ -74,7 +72,7 @@ function isEmpty(id) {
 
 function limpiarErrores(id) {
 	$("#" + id).removeClass("error-input");
-	$("label[for='" + id + "']").html("");
+	$("label[for='" + id + "']").text("");
 }
 
 
@@ -83,51 +81,11 @@ function isEmail(id) {
 	var dato = $("#" + id).val();
 	if (!emailRegex.test(dato)) {
 		$("#" + id).addClass("error-input");
-		$("label[for='" + id + "']").html("<i class=\"fas fa-exclamation-triangle\"></i> &nbsp; Formato no válido");
+		$("label[for='" + id + "']").text("Formato no válido");
 		return false;
 	}
 	return true;
 }
-
-
-$('#modal-envio').on('shown.bs.modal', function () {
-	setTimeout(function () {
-		$('#modal-envio').modal("hide");
-	}, 3480)
-
-})
-
-$('#modal-error').on('shown.bs.modal', function () {
-	setTimeout(function () {
-		$('#modal-error').modal("hide");
-	}, 3480)
-
-})
-
-
-
-$("#map-trigger").click(function (event) {
-	window.location.href ="https://goo.gl/maps/iozENHSG6CC2";
-});
-
-
-
-
-$("#map-trigger").hover(
-	function (event) {
-		$("#map").css({"background-image":"url(../img/Mapas/Mapa1920_1080Hover.svg"});
-	},
-
-	function (event) {
-		$("#map").css({"background-image":"url(../img/Mapas/Mapa1920_1080Red.svg"});
-	});
-
-
-
-
-
-
-
 
 
 
