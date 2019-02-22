@@ -48,13 +48,6 @@
   color: #ffffff;
 }
 
-.btn{
-  font-family: 'Quicksand', sans-serif;
-  color: #563eb3;
-  font-size: 25px;
-  border-radius: 40px;
-  background-color: #ffbd41;
-}
 
 .btn-nosotros{
   display: flex;
