@@ -100,6 +100,23 @@ color: #ffffff;
 }
 
 
+.btn{
+  font-family: 'Quicksand', sans-serif;
+  border:100px;
+  font-size: 20px;
+  padding: 0.5rem 2rem;
+  border-radius: 35px;
+  background-color: #ffbd41;
+  font-weight:bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #563eb3;
+}
+
+
 .navbar-custom{
   position: fixed;
   width: 55.5%;

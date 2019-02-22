@@ -168,21 +168,6 @@
 
 
 
-.btn{
-  font-family: 'Quicksand', sans-serif;
-  border:100px;
-  font-size: 24px;
-  border-radius: 35px;
-  background-color: #ffbd41;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.25;
-  letter-spacing: normal;
-  text-align: center;
-  color: #563eb3;
-}
-
 .btn-servicios{
   display: flex;
   justify-content:flex-end;
@@ -372,31 +357,38 @@
   text-align: center;
 }
 
+.flex{
+  display: flex!important;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
 
+.carousel-indicators{
+  bottom: -80px;
+}
+
+.carousel-indicators li{
+    width: 1rem!important;
+    height: 1rem!important;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #ffbf0078;
+}
+
+.carousel-indicators .active {
+  background-color:#ffbd41;
+}
 
 .carrusel-items{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
 }
-
-
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #ffbd41;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active {
-  background-color: #717171;
-}
-
 
 
 .carrusel-custom{
@@ -411,13 +403,12 @@
 }
 
 .texto-foto{
-  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  font-family: 'Quicksand', sans-serif;
-  font-size: 35px;
+  font-family: 'Days One', sans-serif;
+  font-size: 50px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.26;
+  line-height: 1.28;
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
