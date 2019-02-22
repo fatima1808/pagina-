@@ -18,7 +18,7 @@ input[type=text] control-label {
 } 
 
 input[type=text], select {
-   font-family: 'Quicksand'Medium;
+   font-family: Montserrat;
    line-height: 15px;
    font-size: 20px;
    color:#563eb3;
@@ -29,22 +29,9 @@ input[type=text], select {
     box-sizing: border-box;
 }
 
-
-
 .for[type=text], select {
   border-radius:5px;
 }
-
-
- .btn{
-  font-family:'Quicksand'Medium;
-  color: #563eb3;
-  width: 180px;
-  height: 40px;
-  border-radius: 20px;
-  background-color:#ffbd41;
-}
-
 
 .form-contacto{
   width: 100%;
@@ -71,7 +58,7 @@ input[type=text], select {
   pointer-events: none;
   padding-left: 0.125rem;
   z-index: 1;
-  font-family:'Quicksand'Medium;
+  font-family:'Montserrat',sans-serif;;
   color: #ffffff;
   font-size: 1rem;
   font-weight: normal;
@@ -112,7 +99,7 @@ input[type=text], select {
 .form-group textarea:valid ~ .control-label,
 .form-group textarea.form-file ~ .control-label,
 .form-group textarea.has-value ~ .control-label {
-  font-family: 'Quicksand'Medium;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   color:white;
   top: -1.3rem;
@@ -196,6 +183,31 @@ padding-top: 1px;
     font-size: 75px;
     color: #ffffff;
   }
+
+  input[type=text], select {
+    font-family: 'Quicksand';
+  }
+  
+
+  .form-group .control-label {
+   font-family:'Quicksand';
+    
+  }
+
+
+.form-group select ~ .control-label,
+.form-group input:focus ~ .control-label,
+.form-group input:valid ~ .control-label,
+.form-group input.form-file ~ .control-label,
+.form-group input.has-value ~ .control-label,
+.form-group textarea:focus ~ .control-label,
+.form-group textarea:valid ~ .control-label,
+.form-group textarea.form-file ~ .control-label,
+.form-group textarea.has-value ~ .control-label {
+  font-family: 'Quicksand'Medium;
+  
+}
+
 
   button{
     position: relative;

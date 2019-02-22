@@ -110,18 +110,20 @@ $('#modal-error').on('shown.bs.modal', function () {
 
 
 $("#map-trigger").click(function (event) {
-	window.location.href ="https://goo.gl/maps/iozENHSG6CC2";
+	window.open("https://goo.gl/maps/iozENHSG6CC2");
 });
+
+
 
 
 
 $("#map-trigger").hover(
 	function (event) {
-		$("#map").css({"background-image":"url(../img/Mapas/Mapa1920_1080Hover.svg"});
+		$("#map").css({ "background-image": "url(../img/Mapas/Mapa1920_1080Hover.svg" });
 	},
 
 	function (event) {
-		$("#map").css({"background-image":"url(../img/Mapas/Mapa1920_1080Red.svg"});
+		$("#map").css({ "background-image": "url(../img/Mapas/Mapa1920_1080Red.svg" });
 	});
 
 
