@@ -6,7 +6,7 @@
 
 .titulo-contacto{
     position: relative;
-    font-family:'Days One';
+    font-family:'Days One', sans-serif;
     font-size: 50px;
     color: #ffffff;
 }
@@ -18,7 +18,7 @@ input[type=text] control-label {
 } 
 
 input[type=text], select {
-   font-family: Montserrat;
+   font-family: 'Montserrat', sans-serif;
    line-height: 15px;
    font-size: 20px;
    color:#563eb3;
@@ -58,7 +58,7 @@ input[type=text], select {
   pointer-events: none;
   padding-left: 0.125rem;
   z-index: 1;
-  font-family:'Montserrat',sans-serif;;
+  font-family:'Montserrat',sans-serif;
   color: #ffffff;
   font-size: 1rem;
   font-weight: normal;
@@ -178,19 +178,19 @@ padding-top: 1px;
  .titulo-contacto {
     position: relative; 
     left: 250px; 
-    font-family:'Days One';
+    font-family:'Days One', sans-serif;
     
     font-size: 75px;
     color: #ffffff;
   }
 
   input[type=text], select {
-    font-family: 'Quicksand';
+    font-family: 'Quicksand', sans-serif;
   }
   
 
   .form-group .control-label {
-   font-family:'Quicksand';
+   font-family:'Quicksand', sans-serif;
     
   }
 
@@ -204,7 +204,7 @@ padding-top: 1px;
 .form-group textarea:valid ~ .control-label,
 .form-group textarea.form-file ~ .control-label,
 .form-group textarea.has-value ~ .control-label {
-  font-family: 'Quicksand'Medium;
+  font-family: 'Quicksand', sans-serif;
   
 }
 
@@ -244,7 +244,7 @@ padding-top: 1px;
 
 .texto-enviado{
   color: #2d2d2d;
-  font-family: Quicksand;
+  font-family: 'Quicksand', sans-serif;
   font-weight:bold;
   font-size: 24px;
   line-height: 21px;
@@ -253,7 +253,7 @@ padding-top: 1px;
 
 .texto2{
   color: #2d2d2d;
-  font-family:Quicksand;
+  font-family:'Quicksand', sans-serif;
   font-weight:bold;
   font-size: 17px;
   line-height: 21px;
@@ -281,7 +281,7 @@ padding-top: 1px;
 
 .error{
   color: #2d2d2d;
-  font-family: Quicksand;
+  font-family: 'Quicksand', sans-serif;
   font-weight:bold;
   font-size: 24px;
   line-height: 2px;
@@ -290,7 +290,7 @@ padding-top: 1px;
 
 .error2{
   color: #2d2d2d;
-  font-family:Quicksand;
+  font-family:'Quicksand', sans-serif;
   font-weight:bold;
   font-size: 17px;
   text-align: center;
