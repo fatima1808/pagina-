@@ -6,14 +6,14 @@ body{
 
 .contenedor{
 	max-width: 1100px;
-	height: 915px;
+	height: 945px;
 	}
 	
 
 h2{
-font-family:'Days One'Regular;
+font-family: Righteous;
 color: #ffffff;
-font-size: 75px;
+font-size: 80px;
 text-align: center;
 }
 
@@ -30,13 +30,13 @@ margin: auto;
 .btn{
   display: block;
   margin:auto;
-  font-family: 'Quicksand'Medium;
-  font-size: 20px;
-  color: #563eb3;
-  width: 180px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: #ffbd41;
+  font-family: Comfortaa;
+  border:20px;
+  color: #ffffff;
+  width: 135px;
+  height: 35px;
+  border-radius: 4px;
+  background-color: #25a899;
   position:relative;
   top:5%;
 }
@@ -50,7 +50,7 @@ margin: auto;
 	color: #ffffff;
 	font-size: 40px;
 	line-height: 40px;
-	font-family: 'Quicksand'Medium;
+	font-family: comfortaa;
 	position: relative;
 	top: 1;
 	right: 0;

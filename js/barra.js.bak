@@ -12,7 +12,7 @@ $(document).ready(function(){
             lastScroll = scrollTop;
         }
         
-        if(scrollTop >= 250){
+        if(scrollTop >= 120){
             nav.addClass("navbar-custom-dark");
         }else {
             nav.removeClass("navbar-custom-dark");
