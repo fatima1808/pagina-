@@ -14,78 +14,217 @@
 	<link rel="stylesheet" href="../css/vendor/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/estilo.css">
 	<link rel="stylesheet" href="../css/principal.css">
+	<link rel="stylesheet" href="../css/slide.css">
+	<link rel="stylesheet" href="../css/slide-style.css" />
+
 </head>
 
 <body>
+	<div class="bg">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+			<a class="nav-link logo-nav" href="../index.html"><img class="logo" src="../img/home/RED.svg" /></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span> <i class="fas fa-bars"></i> <a>Home</a></span>
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
-		<a class="nav-link logo-nav" href="../index.html"><img class="logo" src="../img/home/RED.svg" /></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span> <i class="fas fa-bars"></i> <a>Home</a></span>
-
-		</button>
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="../paginas/home.html">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="../paginas/nosotros.html">Nosotros</a>
-				</li>
-				<li class="nav-item ">
-					<a class="nav-link" href="../paginas/servicios.html">Servicios</a>
-				</li>
-				<li class="nav-item ">
-					<a class="nav-link" href="../paginas/contacto.html">Contacto</a>
-				</li>
-				<li class="nav-item ">
-					<a class="nav-link" href="../http://red-point.blog">Red.blog</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="../paginas/home.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../paginas/nosotros.html">Nosotros</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="../paginas/servicios.html">Servicios</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="../http://red-point.blog">Red.blog</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
 
+		<div class="container-fluid contenedor">
 
-	<div class="container-fluid contenedor">
+			<div class="row px-3 px-lg-5 pt-5 mx-0 h-100vh item">
+				<div class="col-sm-12 center">
+					<div class="container">
+						<div class="row pb-0 mx-0">
+							<div class="col-md-6 column center">
+								<div class="container">
+									<div class="row ">
+										<h1 id="titulo">¿Qué es Red Point? </h1>
+									</div>
 
-		<div class="row">
-			<div class="col-md-6 column center">
+									<div class="row mt-5">
+										<p class="parrafo">Diseño y desarrollo de estrategias y soluciones tecnológicas.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 center mt-5">
+								<div class="imagen-placeholder" id="img-soluciones">&nbsp;</div>
+							</div>
+						</div>
+						<div class="row leer mas px-3 px-lg-5 pb-0 mx-0">
+							<div class="col-sm-12 my-5">
+								<a role="button" id="leer-mas"> <img class="iconoMas" src="../img/home/iconoMas.svg" />
+									<h1 class="mas">leer más</h1>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="row center px-3 px-lg-5 mx-0 h-100vh item">
+				<h2 id="como-lo-hacemos">¿Cómo lo hacemos?</h2>
+			</div>
+
+			<!-- Comienza bloque de slider -->
+
+			<div class="row py-5 px-3 px-lg-5 mx-0 h-100vh item center column pt-5">
 				<div class="container">
-					<div class="row ">
-						<h1 id="titulo">¿qué es Red Point? </h1>
+					<div class="row my-5 slideanim show mx-0">
+						<div class="col-sm-12 center">
+							<h1 class="titulo-proponemos">Escuchamos</h1>
+						</div>
 					</div>
 
-					<div class="row mt-5">
-						<p class="parrafo">Diseño y desarrollo de estrategias y soluciones tecnológicas.</p>
+					<div class="row mx-0">
+						<div class="col-sm-6 my-3 slideanim subir">
+							<div class="imagen-placeholder" id="img-escuchamos"
+								src="../img/toma-de-requerimiento-S.png">&nbsp;</div>
+						</div>
+
+						<div class="col-sm-6 my-3 slideanim bajar px-5 center column">
+							<p class="parrafo">Nos acercamos a ti para identificar las necesidades de tu negocio.</p>
+							<p class="parrafo">Nuestro propósito: transformar tus preocupaciones en soluciones.</p>
+							<div class="center my-3">
+								<a href="../contacto.html" class="waves-effect waves-light btn btn btn-secondary">Contáctanos</a href="../contacto.html">
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-sm-6 center mt-5">
-				<img class="img-soluciones" src="../img/home/soluciones-tecnologicas.gif">
-			</div>
+			<div class="row px-3 px-lg-5 mx-0 h-100vh item center column pt-5">
+				<div class="container">
+					<div class="row my-5 slideanim show mx-0">
+						<div class="col-sm-12 center">
+							<h1 class="titulo-proponemos">Proponemos</h1>
+						</div>
+					</div>
 
-			<div class="col-sm-12 my-5">
-				<div class="row leer">
-					<div class="row mas">
-						<h1 class="mas">leer más</h1>
-						<a href="https://***"> <img class="iconoMas" src="../img/home/iconoMas.svg" /></a>
+					<div class="row mx-0">
+						<div class="col-sm-6 my-3 slideanim subir">
+							<div class="imagen-placeholder" id="img-proponemos">&nbsp;</div>
+						</div>
+
+						<div class="col-sm-6 my-3 slideanim bajar px-5 center column">
+							<p class="parrafo">Sabemos que cada empresa y sus necesidades son diferentes.</p>
+							<p class="parrafo">Antes de ejecutar te presentamos
+								una propuesta de valor que te
+								ayude a decidir sobre tu inversión.</p>
+							<div class="center my-3">
+									<a href="../contacto.html" class="waves-effect waves-light btn btn btn-secondary">Contáctanos</a href="../contacto.html">
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class="row centrado mt-5">
-			<h2 id="como-lo-hacemos">¿cómo lo hacemos?</h2>
+			<div class="row px-3 px-lg-5 mx-0 h-100vh item center column pt-5">
+				<div class="container">
+					<div class="row my-5 slideanim show mx-0">
+						<div class="col-sm-12 center">
+							<h1 class="titulo-proponemos">Actuamos</h1>
+						</div>
+					</div>
+
+					<div class="row mx-0">
+						<div class="col-sm-6 my-3 slideanim center subir">
+							<div class="imagen-placeholder" id="img-actuamos">&nbsp;</div>
+						</div>
+
+						<div class="col-sm-6 my-3 slideanim bajar px-5 center column">
+							<p class="parrafo">Te brindamos soluciones tecnológicas a la medida.</p>
+							<p class="parrafo">Nuestros servicios son vastos y, sino tenemos lo que necesitas, te
+								ayudamos a conseguirlo.</p>
+							<div class="center my-3">
+									<a href="../contacto.html" class="waves-effect waves-light btn btn btn-secondary">Contáctanos</a href="../contacto.html">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="row block px-3 px-lg-5 mx-0 h-100vh item center column pt-5">
+				<div class="container">
+					<div class="row mx-0">
+						<div class="col-sm-12">
+							<h2 class="center-align slideanim show titulo-proponemos">El resultado</h2>
+						</div>
+					</div>
+
+
+					<div class="row row-imagen slideanim subir mx-0 pb-0">
+						<div class="col-sm-12">
+							<div class="img-result-container center">
+								<img class="img-result lazy"
+									src="../img/home/05_Soluciones_Empres/Surprised-Man-Cuadrado.png" />
+								<img class="img-result lazy spin"
+									src="../img/home/05_Soluciones_Empres/Resplandor_Cuadrado.png" />
+								<img class="img-result lazy"
+									src="../img/home/05_Soluciones_Empres/Soluciones-Empresariales-Integrales-Cuadrado.png" />
+							</div>
+						</div>
+					</div>
+
+
+
+					<div class=" row contenedor-animado mb-5 slideanim subir mx-0">
+						<div class="col-sm-12">
+							<ul class="animacion-texto">
+								<li>Soluciones concretas</li>
+								<li>Clientes felices</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="row mx-0">
+						<div class="col-sm-12 btn-flex center ">
+							<div class="form-group ">
+									<a href="../contacto.html" class="waves-effect waves-light btn btn btn-secondary">Contáctanos</a href="../contacto.html">
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Termina bloque de slider -->
+
+
+
 		</div>
 	</div>
 
 
-	<footer class="footer">
-		<div class="container p-5">
-			<div class="row">
+
+
+	<footer class="footer item">
+		<div class="container p-5 mt-5">
+			<div class="row mt-5">
 				<div class="col-sm-4 center column mb-5">
 					<div class="center">
 						<img class="logo" src="../img/home/RED.svg" />
@@ -151,13 +290,9 @@
 
 
 				<div class="col-sm-4 center column mb-5" id="columna-contacto">
-
-					<div>
-						<h1 class="texto1">Contáctanos</h1>
-					</div>
-
-
-					<h1 class="texto1-opacidad">Av. Insurgentes Sur 1802, 3er Piso. Col.
+					<h1 class="texto1 ml-0">Contáctanos</h1>
+					<br>
+					<p class="texto1-opacidad">Av. Insurgentes Sur 1802, 3er Piso. Col.
 						Florida, Delegación Álvaro Obregón,
 						C.P. 01030, México, CDMX.
 						<br>
@@ -166,7 +301,7 @@
 						contacto@red-point.mx
 						<br>
 						(55) 65 45 1095
-					</h1>
+					</p>
 					<div>
 						<a class="fb-ic " target="_blank" href="https://www.facebook.com/RedPointAN/">
 							<i class="fab fa-facebook-f fa-lg white-tex mr-3 fa-2x"> </i>
@@ -204,6 +339,9 @@
 <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js"
 	integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7"
 	crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.4.4/lottie_svg.min.js"></script>
+<script src="../js/Scrollify-master/jquery.scrollify.js"></script>
 <script src="../js/barra.js"></script>
+<script src="../js/slide-animation.js"></script>
 
 </html>

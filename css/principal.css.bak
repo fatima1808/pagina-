@@ -32,8 +32,6 @@ background-repeat: no-repeat;
   overflow: hidden;;
 }
 
-/*Estilos agregados 21/02/2019*/
-
 
 .contenedor{
 max-width: 1300px;
@@ -126,7 +124,6 @@ padding-top: 200px;
   padding: 20px;
 }
 
-
 .center{
   display: flex;
   justify-content: center;
@@ -148,7 +145,6 @@ color: #ffffff;
   max-width: 100%;
   z-index: -50;
 }
-
 
 #header-canvas{
   max-width: 100%;
@@ -202,12 +198,13 @@ color: #ffffff;
 
 .navbar-custom-up{
   transform: translateY(-120vh);
+  
 }
 
 
 .navbar-custom *{
   color:#ffbd41;
-  border:none;
+  border: none;
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
 }
@@ -215,6 +212,7 @@ color: #ffffff;
 div#navbarSupportedContent.show {
   height: 100vh;
 }
+
 
 
 .lista{
@@ -237,32 +235,6 @@ div#navbarSupportedContent.show {
   color: #ffffff;
 }
 
-
-
-.a{
-  color: white;
-  font-size: 18px;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.25;
-  letter-spacing: normal;
-  text-align: left; 
-  opacity: 0;
-}
-
-p{
-  color: #ffffff;
-}
-
-
-.tw-ic{
-  color: #ffffff;
-}
-.tw-ic:hover{
-  color: #ffbd41;
-}
 
 .img-logos{
   width: 70px;
@@ -343,19 +315,14 @@ flex-direction: column;
   max-height: 100%;
 }
 
-.w-100vw{
-  width: 100vw;
-  max-width: 100%;
-}
-
 .invisible{
   opacity: 0;
 }
 
 @media only screen and (min-width: 576px){
   .copyright{
-  background-color: #282a2b;
-  font-family: Quicksand;
+    background-color: #282a2b;
+    font-family: Quicksand;
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
@@ -369,11 +336,10 @@ flex-direction: column;
     display: block;
   }
   .navbar-custom{
-    width: 100VW;
-    max-width: 100%;
+    width: 100vw;
+     max-width: 100%;
     padding: 30px 103px;
   }
-
   .lista{
     color:#ffffff;
     opacity: 1;
@@ -383,5 +349,4 @@ flex-direction: column;
     max-height: 70vh;
     padding-top: 0!important;
    }
-}
 }
